@@ -38,7 +38,7 @@ h2{font-size:26px;margin:26px 0 12px}.results{display:grid;gap:11px}.deal{backgr
 <button data-q="Toilettenpapier">Toilettenpapier</button>
 </div>
 <div id="status" class="status">Angebotskatalog wird geladen …</div>
-<div class="source">Quelle: öffentliche kaufDA-Angebotsseiten. Preise können regional abweichen.</div>
+<div class="source">Quelle: kaufDA · Marl und überregionale Angebote. Gültigkeit und Verfügbarkeit vor dem Einkauf beim Händler prüfen.</div>
 
 <h2>Marken im Angebot</h2>
 <div id="results" class="results"><div class="empty">Katalog wird geladen …</div></div>
@@ -59,7 +59,7 @@ async function loadCatalog(){
    if(!r.ok) throw new Error('HTTP '+r.status);
    const d=await r.json();
    catalog=Array.isArray(d.offers)?d.offers:[];
-   status.textContent='Bereit · '+catalog.length+' aktuelle Angebote in '+(d.categories||0)+' Kategorien · Stand '+new Date(d.updatedAt).toLocaleString('de-DE');
+   status.textContent='Bereit · '+catalog.length+' eingelesene Angebote in '+(d.categories||0)+' Kategorien · Abruf '+new Date(d.updatedAt).toLocaleString('de-DE');
    results.innerHTML='<div class="empty">Produkt eingeben und auf „Suchen“ tippen.</div>';
  }catch(e){
    status.textContent='Angebotskatalog konnte nicht geladen werden.';
@@ -71,12 +71,10 @@ function search(term){
  const needle=norm(term.trim());
  if(!needle)return;
  if(!catalog.length){status.textContent='Katalog ist noch nicht geladen.';return}
- let matches=catalog.filter(x=>norm(x.query)===needle);
- if(!matches.length){
-   matches=catalog.filter(x=>norm([x.query,x.product,x.brand,x.retailer].join(' ')).includes(needle));
- }
+ let matches=catalog.filter(x=>norm([x.query,x.product,x.brand,x.retailer].join(' ')).includes(needle));
  if(norm(term)==='ketchup') matches=matches.filter(x=>norm(x.product).includes('ketchup'));
- if(norm(term)==='kaffee') matches=matches.filter(x=>/kaffee|caffe|caffè|espresso|barista/i.test(x.product+' '+x.brand) && !/automat|maschine|geschirr|service/i.test(x.product));
+ if(norm(term)==='kaffee') matches=matches.filter(x=>/kaffee|caffe|caffè|espresso|barista/i.test(x.product+' '+x.brand) && !/automat|maschine|geschirr|service|bereiter|muhle|mühle|tasse|becher/i.test(x.product));
+ if(needle==='milch') matches=matches.filter(x=>/milch/i.test(x.product) && !/schnitte|butter|kondens|pulver|reis|schokolade|kase|käse/i.test(x.product));
  matches.sort((a,b)=>a.price-b.price || String(a.brand).localeCompare(String(b.brand),'de'));
  const byBrand=new Map();
  for(const x of matches){
@@ -88,7 +86,7 @@ function search(term){
  if(!out.length){results.innerHTML='<div class="empty">Aktuell kein passendes Angebot im Katalog.</div>';return}
  results.innerHTML=out.map(x=>`
    <article class="deal">
-     <div class="top"><span class="retailer">${esc(x.retailer)}</span><span class="badge">Angebot</span></div>
+     <div class="top"><span class="retailer">${esc(x.retailer)}</span><span class="badge">${esc(x.scope==='Marl'?'Marl':'Überregional')}</span></div>
      <div class="brandname">${esc(x.brand||'Ohne Marke')}</div>
      <div class="product">${esc(x.product)}</div>
      <div class="price">${euro(x.price)}</div>
