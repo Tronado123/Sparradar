@@ -1,0 +1,41 @@
+name: Update supermarket offers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-offers
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch live offers from Apify
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: node scripts/update-offers.mjs
+
+      - name: Commit updated offers
+        run: |
+          git config user.name "SparRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add offers.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update supermarket offers"
+            git push
+          fi
