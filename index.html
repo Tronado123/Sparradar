@@ -55,11 +55,16 @@ function tokenState(){const ok=!!saved();ts.textContent=ok?'Token ist gespeicher
 tokenState();
 $('save').onclick=()=>{const t=token.value.trim();if(!t){ts.textContent='Bitte Token einfügen.';ts.className='status err';return}localStorage.setItem(KEY,t);token.value='';ts.textContent='Token gespeichert.';ts.className='status ok'}
 $('del').onclick=()=>{localStorage.removeItem(KEY);tokenState()}
-async function run(input){
+async function run(input, timeoutMs=30000){
  const t=saved(); if(!t) throw new Error('Kein Token gespeichert.');
  const url='https://api.apify.com/v2/acts/'+ACTOR+'/run-sync-get-dataset-items';
- const r=await fetch(url,{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+t},body:JSON.stringify(input)});
- if(!r.ok) throw new Error('Apify '+r.status); return await r.json();
+ const controller=new AbortController();
+ const timer=setTimeout(()=>controller.abort(),timeoutMs);
+ try{
+  const r=await fetch(url,{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+t},body:JSON.stringify(input),signal:controller.signal});
+  if(!r.ok) throw new Error('Apify '+r.status);
+  return await r.json();
+ } finally { clearTimeout(timer); }
 }
 $('check').onclick=async()=>{ts.textContent='Verbindung wird geprüft …';ts.className='status';try{await run({chains:['lidl'],keywords:['ketchup'],maxItems:1,maxPerChain:1,proxyConfiguration:{useApifyProxy:false}});ts.textContent='Verbindung funktioniert. Live-Suche ist aktiv.';ts.className='status ok'}catch(e){ts.textContent='Verbindung fehlgeschlagen: '+e.message;ts.className='status err'}}
 document.querySelectorAll('.radius').forEach(b=>b.onclick=()=>{radius=+b.dataset.r;document.querySelectorAll('.radius').forEach(x=>x.classList.toggle('active',x===b));if(pos)$('loc').textContent='Standort · '+radius+' km'})
@@ -82,11 +87,21 @@ function render(items){
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 async function search(term){
  term=term.trim(); if(!term)return;
- ls.textContent='Live-Angebote werden gesucht …';results.innerHTML='<div class="empty">Suche läuft …</div>';
- try{
-  const items=await run({chains:['aldi-sued','aldi-nord','penny','edeka','lidl','rewe'],keywords:[term],maxItems:200,maxPerChain:100,proxyConfiguration:{useApifyProxy:false}});
-  render(Array.isArray(items)?items:[]);ls.textContent='Live-Suche abgeschlossen.'
- }catch(e){results.innerHTML='<div class="empty">Live-Suche nicht möglich.</div>';ls.textContent=e.message}
+ const chains=['lidl','rewe','aldi-nord','aldi-sued','penny','edeka'];
+ let all=[],done=0,failed=0;
+ ls.textContent='Suche startet …';results.innerHTML='<div class="empty">Suche läuft …</div>';
+ await Promise.all(chains.map(async chain=>{
+   try{
+     const items=await run({chains:[chain],keywords:[term],maxItems:30,maxPerChain:60,proxyConfiguration:{useApifyProxy:false}},35000);
+     if(Array.isArray(items)&&items.length){all=all.concat(items);render(all)}
+   }catch(e){failed++}
+   finally{
+     done++;
+     ls.textContent='Durchsucht: '+done+'/'+chains.length+' Händler'+(failed?' · '+failed+' ohne Antwort':'');
+   }
+ }));
+ if(all.length){render(all);ls.textContent='Fertig · '+all.length+' Live-Angebote gefunden.'}
+ else{results.innerHTML='<div class="empty">Keine passenden Live-Angebote gefunden.</div>';ls.textContent=failed===chains.length?'Kein Händler hat rechtzeitig geantwortet. Bitte erneut versuchen.':'Fertig · derzeit kein passendes Sonderangebot gefunden.'}
 }
 $('form').onsubmit=e=>{e.preventDefault();search(q.value)}
 document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{q.value=b.dataset.q;search(q.value)})
