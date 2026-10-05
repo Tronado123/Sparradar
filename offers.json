@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-05T03:40:09.413Z",
-  "count": 362,
+  "updatedAt": "2026-10-05T11:34:50.239Z",
+  "count": 346,
   "categories": 114,
-  "localPages": 34,
-  "fallbackPages": 37,
+  "localPages": 33,
+  "fallbackPages": 38,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -235,30 +235,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Kaffee",
-      "product": "Kaffee- oder Teebereiter",
-      "brand": "bodum",
-      "retailer": "Netto Marken-Discount",
-      "price": 9.99,
-      "priceText": "9,99 €",
-      "unit": "",
-      "discount": "9,91 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Kaffee",
-      "product": "Caffè Crema",
-      "brand": "Lavazza",
-      "retailer": "Penny",
-      "price": 12.99,
-      "priceText": "12,99 €",
-      "unit": "",
-      "discount": "9,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Kaffeebohnen",
       "product": "Espresso Cremoso",
       "brand": "Bellarom",
@@ -267,6 +243,18 @@
       "priceText": "10,99 €",
       "unit": "",
       "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffeebohnen",
+      "product": "Barista/Origins",
+      "brand": "Jacobs",
+      "retailer": "METRO",
+      "price": 13.99,
+      "priceText": "13,99 €",
+      "unit": "",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -391,18 +379,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Milch",
-      "product": "Kondensmilch",
-      "brand": "K-CLASSIC",
-      "retailer": "Kaufland",
-      "price": 0.79,
-      "priceText": "0,79 €",
-      "unit": "(1 kg = 1.58)",
-      "discount": "0,79 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Hafermilch",
       "product": "Hafer Barista",
       "brand": "Oatly",
@@ -476,6 +452,18 @@
     },
     {
       "query": "Butter",
+      "product": "Landliebe Butter",
+      "brand": "Ohne Marke",
+      "retailer": "E center",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(1 kg = € 5.16)",
+      "discount": "1,20 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Butter",
       "product": "Butter",
       "brand": "Landliebe",
       "retailer": "EDEKA",
@@ -495,66 +483,6 @@
       "priceText": "2,69 €",
       "unit": "1 kg = 10.76",
       "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Butter Toast",
-      "brand": "Harry",
-      "retailer": "Kaufland",
-      "price": 1.19,
-      "priceText": "1,19 €",
-      "unit": "(1 kg = 2.38)",
-      "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Golden Hills Irische Butter",
-      "brand": "Milbona",
-      "retailer": "Lidl",
-      "price": 1.79,
-      "priceText": "1,79 €",
-      "unit": "1 kg = 7.16",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Backaroma Butter-Vanille",
-      "brand": "RUF",
-      "retailer": "Kaufland",
-      "price": 0.59,
-      "priceText": "0,59 €",
-      "unit": "",
-      "discount": "0,40 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Süßrahm Butter",
-      "brand": "Bioland",
-      "retailer": "Lidl",
-      "price": 2.69,
-      "priceText": "2,69 €",
-      "unit": "1 kg = 10.76",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Butter-Spekulatius",
-      "brand": "Ohne Marke",
-      "retailer": "Thomas Philipps",
-      "price": 1.59,
-      "priceText": "1,59 €",
-      "unit": "(1 kg = 7,95)",
-      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -596,15 +524,39 @@
     },
     {
       "query": "Joghurt",
+      "product": "Activia Joghurt",
+      "brand": "Danone",
+      "retailer": "EDEKA",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "1kg = 3,24",
+      "discount": "1,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Joghurt",
+      "product": "Activia Joghurt Big Pot",
+      "brand": "Danone",
+      "retailer": "E center",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "1kg = 3,24",
+      "discount": "1,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Joghurt",
       "product": "Joghurt mit der Ecke",
-      "brand": "Müller",
+      "brand": "MÜLLER",
       "retailer": "Kaufland",
       "price": 0.29,
       "priceText": "0,29 €",
       "unit": "(1 kg = 1.94 - 2.57)",
       "discount": "0,60 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Joghurt",
@@ -616,11 +568,11 @@
       "unit": "1 kg = 2.79",
       "discount": "0,60 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Joghurt",
-      "product": "Joghurt mit der Ecke",
+      "product": "Joghurt mit der Ecke Schoko Balls",
       "brand": "Müller",
       "retailer": "Netto Marken-Discount",
       "price": 0.33,
@@ -628,7 +580,7 @@
       "unit": "(2.20 – 2.44 / kg)",
       "discount": "0,56 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Joghurt",
@@ -637,10 +589,10 @@
       "retailer": "Penny",
       "price": 0.33,
       "priceText": "0,33 €",
-      "unit": "1 kg = 2.20",
+      "unit": "(1 kg = 2.20)",
       "discount": "0,56 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Joghurt",
@@ -652,7 +604,7 @@
       "unit": "1 kg =2.36/2.92/2.20",
       "discount": "0,56 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Joghurt",
@@ -664,43 +616,7 @@
       "unit": "1 kg = 3.14",
       "discount": "0,55 €",
       "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Joghurt",
-      "product": "Rahmjoghurt",
-      "brand": "WEIHENSTEPHAN",
-      "retailer": "Kaufland",
-      "price": 0.44,
-      "priceText": "0,44 €",
-      "unit": "(1 kg = 2.94)",
-      "discount": "0,55 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Joghurt",
-      "product": "Feinjoghurt",
-      "brand": "Mövenpick",
-      "retailer": "Netto Marken-Discount",
-      "price": 0.49,
-      "priceText": "0,49 €",
-      "unit": "(3.27 – 6.13 / kg)",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Joghurt",
-      "product": "Naturjoghurt",
-      "brand": "Weihenstephan",
-      "retailer": "Netto Marken-Discount",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1.98 / kg)",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Quark",
@@ -1196,12 +1112,24 @@
     },
     {
       "query": "Nudeln",
-      "product": "Nudeln",
-      "brand": "Birkel",
-      "retailer": "Kaufland",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 kg = 1.98 - 2.48)",
+      "product": "Instantnudeln",
+      "brand": "Samyang",
+      "retailer": "EDEKA",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "1 kg = € 13.77",
+      "discount": "0,60 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nudeln",
+      "product": "Instantnudeln",
+      "brand": "Samyang",
+      "retailer": "E center",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "1 kg = € 13.77",
       "discount": "0,60 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1927,18 +1855,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Äpfel",
-      "product": "Rote Bio Tafeläpfel",
-      "brand": "REWE Bio",
-      "retailer": "REWE",
-      "price": 1.79,
-      "priceText": "1,79 €",
-      "unit": "1 kg = 3.25",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Orangen",
       "product": "Orange Man Eau de Toilette",
       "brand": "BOSS",
@@ -2479,42 +2395,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Sekt",
-      "product": "Sekt",
-      "brand": "Rotkäppchen",
-      "retailer": "Netto Marken-Discount",
-      "price": 0.84,
-      "priceText": "0,84 €",
-      "unit": "(4.20 / l)",
-      "discount": "0,85 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Sekt",
-      "product": "MMchen Piccolo-Sekt",
-      "brand": "MM EXTRA",
-      "retailer": "Kaufland",
-      "price": 1.11,
-      "priceText": "1,11 €",
-      "unit": "(1 l = 5.55)",
-      "discount": "0,38 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Sekt",
-      "product": "Jahrgangssekt",
-      "brand": "Mumm",
-      "retailer": "REWE",
-      "price": 3.79,
-      "priceText": "3,79 €",
-      "unit": "(1 l = 5.05)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Schokolade",
       "product": "Schokolade*",
       "brand": "MILKA",
@@ -2547,30 +2427,6 @@
       "priceText": "2,49 €",
       "unit": "(1 kg = 8.30 - 9.96)",
       "discount": "1,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Schokolade",
-      "product": "Schokolade",
-      "brand": "MILKA",
-      "retailer": "Lidl",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "1 kg = 11.96",
-      "discount": "1,40 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Schokolade",
-      "product": "Schokolade",
-      "brand": "Ritter Sport",
-      "retailer": "Kaufland",
-      "price": 0.88,
-      "priceText": "0,88 €",
-      "unit": "(1 kg = 8.80)",
-      "discount": "1,11 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2619,30 +2475,6 @@
       "priceText": "0,99 €",
       "unit": "1 kg = 6.60",
       "discount": "1,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Chips",
-      "product": "Protein-Tortilla-Chips Paprika",
-      "brand": "MORE",
-      "retailer": "Kaufland",
-      "price": 2.29,
-      "priceText": "2,29 €",
-      "unit": "(1 kg = 45.80)",
-      "discount": "0,70 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Chips",
-      "product": "Linsen Chips Paprika Style",
-      "brand": "funny-frisch",
-      "retailer": "Penny",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "(1 kg = 16.56)",
-      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2732,6 +2564,30 @@
     },
     {
       "query": "Pizza",
+      "product": "Steinofenpizza",
+      "brand": "Original Wagner",
+      "retailer": "EDEKA",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "(1 kg = ab € 4.71)",
+      "discount": "1,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Pizza",
+      "product": "Steinofenpizza",
+      "brand": "Original Wagner",
+      "retailer": "E center",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "(1 kg = ab € 4.71)",
+      "discount": "1,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Pizza",
       "product": "Steinofen Pizza",
       "brand": "Original Wagner",
       "retailer": "EDEKA",
@@ -2763,54 +2619,6 @@
       "priceText": "3,29 €",
       "unit": "Grundpreis 1 kg = 6,85-9,14",
       "discount": "0,90 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Pizza",
-      "product": "Amore Pizza",
-      "brand": "GUSTAVO GUSTO",
-      "retailer": "Kaufland",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "(1 kg = 8.93 - 9.50)",
-      "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Pizza",
-      "product": "Bio Steinofen-Pizza",
-      "brand": "NATURGUT",
-      "retailer": "Penny",
-      "price": 2.49,
-      "priceText": "2,49 €",
-      "unit": "1 kg = 7.32",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Pizza",
-      "product": "Vegane Steinofenpizza",
-      "brand": "VEMODO",
-      "retailer": "Lidl",
-      "price": 1.39,
-      "priceText": "1,39 €",
-      "unit": "1 kg = 3.56/4.09",
-      "discount": "0,40 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Pizza",
-      "product": "Pizza Snack Salami",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 0.75,
-      "priceText": "0,75 €",
-      "unit": "",
-      "discount": "0,24 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -4028,24 +3836,24 @@
     },
     {
       "query": "Fertiggerichte",
-      "product": "Fertiggericht",
-      "brand": "FROSTA",
-      "retailer": "Kaufland",
-      "price": 2.29,
-      "priceText": "2,29 €",
-      "unit": "(1 kg = 4.58 - 5.09)",
-      "discount": "2,50 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Fertiggerichte",
       "product": "Fertiggerichte",
       "brand": "Frosta",
       "retailer": "E center",
       "price": 2.29,
       "priceText": "2,29 €",
       "unit": "Mit APP: 1kg = 5,73/4,58",
+      "discount": "2,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Fertiggerichte",
+      "product": "Fertiggericht",
+      "brand": "FROSTA",
+      "retailer": "Kaufland",
+      "price": 2.29,
+      "priceText": "2,29 €",
+      "unit": "(1 kg = 4.58 - 5.09)",
       "discount": "2,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
