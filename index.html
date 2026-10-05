@@ -3,131 +3,103 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#111">
+<meta name="theme-color" content="#111111">
 <title>SparRadar</title>
 <style>
-:root{--bg:#f5f5f3;--card:#fff;--text:#111;--muted:#71716c;--line:#dddcd7}
+:root{--bg:#f5f5f3;--card:#fff;--text:#111;--muted:#74746f;--line:#dddcd7}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
-main{max-width:720px;margin:auto;padding:22px 16px 60px}.box,.search,.deal{background:var(--card);border:1px solid var(--line);border-radius:18px}
-.box{padding:16px;margin-bottom:18px}.box h3{margin:0 0 4px}.muted{color:var(--muted);font-size:14px}
-.tokenrow{display:flex;gap:8px;margin-top:12px}.tokenrow input,.search input{flex:1;min-width:0;border:1px solid var(--line);border-radius:13px;padding:13px;font-size:16px}
-button{border:0;border-radius:13px;padding:13px 16px;font-size:16px;font-weight:700;cursor:pointer;background:#111;color:#fff}
-.secondary{background:#e9e9e6;color:#111}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
-.brand{display:flex;align-items:center;gap:12px;margin:20px 0}.logo{width:48px;height:48px;border-radius:14px;background:#111;color:#fff;display:grid;place-items:center;font-weight:900}
-h1{margin:0;font-size:38px;letter-spacing:-1.5px}.subtitle{margin:2px 0 0;color:var(--muted)}
-.search{display:flex;gap:8px;padding:9px;margin-bottom:10px}.search input{border:0;background:transparent}.chips{display:flex;gap:7px;overflow:auto;padding:5px 0 16px}.chips button{white-space:nowrap;background:#fff;color:#111;border:1px solid var(--line);padding:9px 12px;font-size:14px}
-.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.controls button{background:#fff;color:#111;border:1px solid var(--line);font-size:14px;padding:9px 12px}.controls .active{background:#111;color:#fff}
-.status{margin-top:8px;font-size:14px}.ok{color:#176b2d}.err{color:#a12626}
-h2{font-size:25px;margin:24px 0 10px}.results{display:grid;gap:10px}.deal{padding:15px}.top{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted)}.store{font-weight:800;color:#111}.brandname{font-size:20px;font-weight:900;margin-top:8px}.product{margin:2px 0 10px;color:#4e4e49}.price{font-size:28px;font-weight:900}.old{text-decoration:line-through;color:var(--muted);margin-left:8px}.unit{font-size:13px;color:var(--muted);margin-top:5px}.empty{padding:28px 10px;text-align:center;color:var(--muted)}
-@media(max-width:520px){.tokenrow,.search{flex-direction:column}.tokenrow button,.search button{width:100%}}
+main{max-width:720px;margin:auto;padding:28px 16px 70px}.brand{display:flex;align-items:center;gap:13px;margin:14px 0 25px}
+.logo{width:54px;height:54px;border-radius:16px;background:#111;color:#fff;display:grid;place-items:center;font-weight:900;font-size:20px}
+h1{font-size:40px;letter-spacing:-1.8px;margin:0;line-height:1}.sub{color:var(--muted);font-size:17px;margin-top:6px}
+.search{background:#fff;border:1px solid var(--line);border-radius:20px;padding:10px;display:flex;gap:8px}
+.search input{flex:1;min-width:0;border:0;outline:0;padding:14px 12px;font-size:18px;background:transparent}
+button{border:0;border-radius:14px;padding:14px 18px;font-size:16px;font-weight:800;background:#111;color:white}
+.chips{display:flex;gap:8px;overflow:auto;padding:13px 0 8px}.chips button{background:#fff;color:#111;border:1px solid var(--line);font-size:14px;padding:10px 13px;white-space:nowrap}
+.status{font-size:14px;color:var(--muted);margin:14px 3px}.source{font-size:12px;color:var(--muted);margin:6px 3px 20px}
+h2{font-size:26px;margin:26px 0 12px}.results{display:grid;gap:11px}.deal{background:#fff;border:1px solid var(--line);border-radius:18px;padding:15px}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:center}.retailer{font-weight:900;font-size:15px}.badge{font-size:12px;background:#efefec;padding:5px 8px;border-radius:999px;color:#444}
+.brandname{font-size:21px;font-weight:900;margin:9px 0 2px}.product{color:#4d4d49;margin-bottom:10px}.price{font-size:29px;font-weight:900}.unit{font-size:13px;color:var(--muted);margin-top:5px}.discount{font-size:13px;margin-top:5px;color:#176b2d}.empty{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;text-align:center;color:var(--muted)}
+@media(max-width:520px){.search{flex-direction:column}.search button{width:100%}}
 </style>
 </head>
 <body>
 <main>
-<section class="box">
-<h3>Live-Angebote aktivieren</h3>
-<div class="muted">Apify-Token einmal einfügen. Er bleibt nur in diesem Browser gespeichert.</div>
-<div class="tokenrow"><input id="token" type="password" placeholder="Apify-Token einfügen" autocomplete="off"><button id="save">Speichern</button></div>
-<div class="actions"><button class="secondary" id="check">Verbindung prüfen</button><button class="secondary" id="del">Token löschen</button></div>
-<div id="tokenStatus" class="status">Noch kein Token gespeichert.</div>
-</section>
+<div class="brand"><div class="logo">SR</div><div><h1>SparRadar</h1><div class="sub">Was möchtest du günstig kaufen? · v18</div></div></div>
 
-<div class="brand"><div class="logo">SR</div><div><h1>SparRadar</h1><p class="subtitle">Was möchtest du günstig kaufen? · v17</p></div></div>
-
-<form id="form" class="search"><input id="q" type="search" placeholder="z. B. Waschmittel, Ketchup, Kaffee"><button>Suchen</button></form>
+<form id="form" class="search">
+<input id="q" type="search" autocomplete="off" placeholder="z. B. Waschmittel, Ketchup, Kaffee">
+<button>Suchen</button>
+</form>
 <div class="chips">
-<button data-q="Waschmittel">Waschmittel</button><button data-q="Ketchup">Ketchup</button><button data-q="Kaffee">Kaffee</button><button data-q="Toilettenpapier">Toilettenpapier</button>
+<button data-q="Waschmittel">Waschmittel</button>
+<button data-q="Ketchup">Ketchup</button>
+<button data-q="Kaffee">Kaffee</button>
+<button data-q="Milch">Milch</button>
+<button data-q="Toilettenpapier">Toilettenpapier</button>
 </div>
-<div class="controls">
-<button id="loc">Standort verwenden</button>
-<button class="radius active" data-r="5">5 km</button><button class="radius" data-r="10">10 km</button><button class="radius" data-r="20">20 km</button>
-</div>
-<div id="liveStatus" class="muted">Bereit.</div>
-<h2>Marken im Angebot</h2>
-<div id="results" class="results"><div class="empty">Suche nach einem Produkt.</div></div>
-</main>
-<script>
-const ACTOR='nerdrx~de-supermarket-offers',KEY='sparradar_apify_token_v1';
-const $=id=>document.getElementById(id), token=$('token'), ts=$('tokenStatus'), ls=$('liveStatus'), results=$('results'), q=$('q');
-let radius=5,pos=null;
-function saved(){return localStorage.getItem(KEY)||''}
-function tokenState(){const ok=!!saved();ts.textContent=ok?'Token ist gespeichert.':'Noch kein Token gespeichert.';ts.className='status '+(ok?'ok':'')}
-tokenState();
-$('save').onclick=()=>{const t=token.value.trim();if(!t){ts.textContent='Bitte Token einfügen.';ts.className='status err';return}localStorage.setItem(KEY,t);token.value='';ts.textContent='Token gespeichert.';ts.className='status ok'}
-$('del').onclick=()=>{localStorage.removeItem(KEY);tokenState()}
+<div id="status" class="status">Angebotskatalog wird geladen …</div>
+<div class="source">Quelle: öffentliche kaufDA-Angebotsseiten. Preise können regional abweichen.</div>
 
-async function api(path,opts={}){
- const t=saved(); if(!t) throw new Error('Kein Token gespeichert.');
- const sep=path.includes('?')?'&':'?';
- const r=await fetch('https://api.apify.com/v2/'+path+sep+'token='+encodeURIComponent(t),opts);
- if(!r.ok) throw new Error('Apify '+r.status);
- return await r.json();
-}
-async function runOne(chain,term,timeoutMs=45000){
- const started=await api('acts/'+ACTOR+'/runs',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({
-   chains:[chain],keywords:[term],maxItems:25,maxPerChain:80,proxyConfiguration:{useApifyProxy:false}
- })});
- const d=started?.data||{}; const id=d.id; if(!id) throw new Error('Kein Run gestartet');
- const begin=Date.now();
- while(Date.now()-begin<timeoutMs){
-   const x=await api('actor-runs/'+id); const st=x?.data?.status||'';
-   if(st==='SUCCEEDED'){
-     const ds=x.data.defaultDatasetId||d.defaultDatasetId;
-     const r=await fetch('https://api.apify.com/v2/datasets/'+ds+'/items?clean=true&format=json&token='+encodeURIComponent(saved()));
-     if(!r.ok) throw new Error('Dataset '+r.status);
-     return await r.json();
-   }
-   if(['FAILED','ABORTED','TIMED-OUT'].includes(st)) throw new Error(st);
-   await new Promise(r=>setTimeout(r,1500));
- }
- throw new Error('Zeitlimit');
-}
-$('check').onclick=async()=>{ts.textContent='Verbindung wird geprüft …';ts.className='status';try{await api('users/me');ts.textContent='Verbindung funktioniert. Live-Suche ist aktiv.';ts.className='status ok'}catch(e){ts.textContent='Verbindung fehlgeschlagen: '+e.message;ts.className='status err'}}
-document.querySelectorAll('.radius').forEach(b=>b.onclick=()=>{radius=+b.dataset.r;document.querySelectorAll('.radius').forEach(x=>x.classList.toggle('active',x===b));if(pos)$('loc').textContent='Standort · '+radius+' km'})
-$('loc').onclick=()=>{if(!navigator.geolocation){ls.textContent='Standort nicht verfügbar.';return}ls.textContent='Standort wird ermittelt …';navigator.geolocation.getCurrentPosition(p=>{pos={lat:p.coords.latitude,lon:p.coords.longitude};$('loc').textContent='Standort · '+radius+' km';ls.textContent='Standort aktiv.'},()=>ls.textContent='Standort wurde nicht freigegeben.')}
-function num(v){const n=Number(String(v??'').replace(',','.').replace(/[^0-9.]/g,''));return Number.isFinite(n)&&n>0?n:null}
-function first(o,ks){for(const k of ks)if(o&&o[k]!=null&&o[k]!=='')return o[k];return null}
-function norm(i){
- const product=first(i,['product','title','name','productName','offerTitle']); const price=num(first(i,['price','offerPrice','currentPrice','salePrice']));
- if(!product||!price)return null;
- return {store:String(first(i,['chain','retailer','store','storeName','merchant'])||'Supermarkt'),product:String(product),brand:String(first(i,['brand','manufacturer'])||String(product).split(/\s+/)[0]||'Marke'),price,old:num(first(i,['oldPrice','regularPrice','originalPrice','beforePrice'])),unit:first(i,['basePrice','unitPrice','pricePerUnit','grundpreis'])||'',valid:first(i,['validTo','validUntil','endDate'])||''}
-}
+<h2>Marken im Angebot</h2>
+<div id="results" class="results"><div class="empty">Katalog wird geladen …</div></div>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const q=$('q'),status=$('status'),results=$('results');
+let catalog=[];
+
 function euro(v){return Number(v).toLocaleString('de-DE',{style:'currency',currency:'EUR'})}
-function render(items){
- const m=new Map();
- items.map(norm).filter(Boolean).forEach(x=>{const k=x.brand.toLowerCase();const y=m.get(k);if(!y||x.price<y.price)m.set(k,x)});
- const a=[...m.values()].sort((a,b)=>a.price-b.price);
- if(!a.length){results.innerHTML='<div class="empty">Keine passenden Live-Angebote gefunden.</div>';return}
- results.innerHTML=a.slice(0,30).map(x=>'<article class="deal"><div class="top"><span class="store">'+esc(x.store)+'</span><span>Live</span></div><div class="brandname">'+esc(x.brand)+'</div><div class="product">'+esc(x.product)+'</div><span class="price">'+euro(x.price)+'</span>'+(x.old?'<span class="old">'+euro(x.old)+'</span>':'')+(x.unit?'<div class="unit">'+esc(String(x.unit))+'</div>':'')+'</article>').join('')
-}
-function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-async function search(term){
- term=term.trim(); if(!term)return;
- const chains=['lidl','rewe','aldi-nord','aldi-sued','penny','edeka'];
- const names={'lidl':'Lidl','rewe':'REWE','aldi-nord':'ALDI Nord','aldi-sued':'ALDI Süd','penny':'PENNY','edeka':'EDEKA'};
- let all=[],done=0,failed=0;
- results.innerHTML='<div class="empty">Suche startet …</div>';
- ls.textContent='0/6 Händler durchsucht';
- await Promise.all(chains.map(async chain=>{
-   try{
-     const items=await runOne(chain,term,45000);
-     if(Array.isArray(items)&&items.length){all=all.concat(items);render(all)}
-   }catch(err){failed++}
-   finally{
-     done++;
-     ls.textContent=done+'/6 Händler durchsucht'+(failed?' · '+failed+' ohne Antwort':'');
-   }
- }));
- if(all.length){
-   render(all);
-   ls.textContent='Fertig · '+all.length+' passende Live-Angebote.';
- }else{
-   results.innerHTML='<div class="empty">Keine passenden Live-Angebote gefunden.</div>';
-   ls.textContent='Fertig · kein Treffer'+(failed?' · '+failed+' Händler ohne Antwort':'');
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function norm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss')}
+
+async function loadCatalog(){
+ try{
+   const r=await fetch('./offers.json?v='+Date.now(),{cache:'no-store'});
+   if(!r.ok) throw new Error('HTTP '+r.status);
+   const d=await r.json();
+   catalog=Array.isArray(d.offers)?d.offers:[];
+   status.textContent='Bereit · '+catalog.length+' aktuelle Angebote in '+(d.categories||0)+' Kategorien · Stand '+new Date(d.updatedAt).toLocaleString('de-DE');
+   results.innerHTML='<div class="empty">Produkt eingeben und auf „Suchen“ tippen.</div>';
+ }catch(e){
+   status.textContent='Angebotskatalog konnte nicht geladen werden.';
+   results.innerHTML='<div class="empty">Datenfehler: '+esc(e.message)+'</div>';
  }
 }
+
+function search(term){
+ const needle=norm(term.trim());
+ if(!needle)return;
+ if(!catalog.length){status.textContent='Katalog ist noch nicht geladen.';return}
+ let matches=catalog.filter(x=>norm(x.query)===needle);
+ if(!matches.length){
+   matches=catalog.filter(x=>norm([x.query,x.product,x.brand,x.retailer].join(' ')).includes(needle));
+ }
+ if(norm(term)==='ketchup') matches=matches.filter(x=>norm(x.product).includes('ketchup'));
+ if(norm(term)==='kaffee') matches=matches.filter(x=>/kaffee|caffe|caffè|espresso|barista/i.test(x.product+' '+x.brand) && !/automat|maschine|geschirr|service/i.test(x.product));
+ matches.sort((a,b)=>a.price-b.price || String(a.brand).localeCompare(String(b.brand),'de'));
+ const byBrand=new Map();
+ for(const x of matches){
+   const key=norm(x.brand||x.product);
+   if(!byBrand.has(key))byBrand.set(key,x);
+ }
+ const out=[...byBrand.values()].slice(0,40);
+ status.textContent=out.length+' Marken/Angebote gefunden.';
+ if(!out.length){results.innerHTML='<div class="empty">Aktuell kein passendes Angebot im Katalog.</div>';return}
+ results.innerHTML=out.map(x=>`
+   <article class="deal">
+     <div class="top"><span class="retailer">${esc(x.retailer)}</span><span class="badge">Angebot</span></div>
+     <div class="brandname">${esc(x.brand||'Ohne Marke')}</div>
+     <div class="product">${esc(x.product)}</div>
+     <div class="price">${euro(x.price)}</div>
+     ${x.unit?'<div class="unit">'+esc(x.unit)+'</div>':''}
+     ${x.discount?'<div class="discount">Rabatt: '+esc(x.discount)+'</div>':''}
+   </article>`).join('');
+}
+
 $('form').onsubmit=e=>{e.preventDefault();search(q.value)}
 document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{q.value=b.dataset.q;search(q.value)})
+loadCatalog();
 </script>
 </body>
 </html>
