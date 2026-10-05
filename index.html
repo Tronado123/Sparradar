@@ -74,7 +74,7 @@ function search(term){
  let matches=catalog.filter(x=>norm([x.query,x.product,x.brand,x.retailer].join(' ')).includes(needle));
  if(norm(term)==='ketchup') matches=matches.filter(x=>norm(x.product).includes('ketchup'));
  if(norm(term)==='kaffee') matches=matches.filter(x=>/kaffee|caffe|caffè|espresso|barista/i.test(x.product+' '+x.brand) && !/automat|maschine|geschirr|service|bereiter|muhle|mühle|tasse|becher/i.test(x.product));
- if(needle==='milch') matches=matches.filter(x=>/milch/i.test(x.product) && !/schnitte|butter|kondens|pulver|reis|schokolade|kase|käse/i.test(x.product));
+ if(needle==='milch') matches=matches.filter(x=>norm(x.query)==='milch' && /milch/i.test(x.product) && !/schnitte|butter|kondens|pulver|reis|schokolade|kase|käse/i.test(x.product));
  matches.sort((a,b)=>a.price-b.price || String(a.brand).localeCompare(String(b.brand),'de'));
  const byBrand=new Map();
  for(const x of matches){
