@@ -32,7 +32,7 @@ h2{font-size:25px;margin:24px 0 10px}.results{display:grid;gap:10px}.deal{paddin
 <div id="tokenStatus" class="status">Noch kein Token gespeichert.</div>
 </section>
 
-<div class="brand"><div class="logo">SR</div><div><h1>SparRadar</h1><p class="subtitle">Was möchtest du günstig kaufen? · v16</p></div></div>
+<div class="brand"><div class="logo">SR</div><div><h1>SparRadar</h1><p class="subtitle">Was möchtest du günstig kaufen? · v17</p></div></div>
 
 <form id="form" class="search"><input id="q" type="search" placeholder="z. B. Waschmittel, Ketchup, Kaffee"><button>Suchen</button></form>
 <div class="chips">
@@ -42,7 +42,7 @@ h2{font-size:25px;margin:24px 0 10px}.results{display:grid;gap:10px}.deal{paddin
 <button id="loc">Standort verwenden</button>
 <button class="radius active" data-r="5">5 km</button><button class="radius" data-r="10">10 km</button><button class="radius" data-r="20">20 km</button>
 </div>
-<div class="actions"><button class="secondary" id="refreshOffers">Angebote aktualisieren</button></div><div id="liveStatus" class="muted">Bereit.</div>
+<div id="liveStatus" class="muted">Bereit.</div>
 <h2>Marken im Angebot</h2>
 <div id="results" class="results"><div class="empty">Suche nach einem Produkt.</div></div>
 </main>
@@ -63,41 +63,24 @@ async function api(path,opts={}){
  if(!r.ok) throw new Error('Apify '+r.status);
  return await r.json();
 }
-async function startRun(input){
- return await api('acts/'+ACTOR+'/runs',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(input)});
-}
-async function waitRun(id){
- for(let i=0;i<120;i++){
-   const x=await api('actor-runs/'+id);
-   const st=x?.data?.status||'';
-   ls.textContent='Angebote werden geladen · '+st.toLowerCase()+' · '+(i*2)+' s';
-   if(st==='SUCCEEDED') return x.data;
-   if(['FAILED','ABORTED','TIMED-OUT'].includes(st)) throw new Error('Lauf '+st);
-   await new Promise(r=>setTimeout(r,2000));
+async function runOne(chain,term,timeoutMs=45000){
+ const started=await api('acts/'+ACTOR+'/runs',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({
+   chains:[chain],keywords:[term],maxItems:25,maxPerChain:80,proxyConfiguration:{useApifyProxy:false}
+ })});
+ const d=started?.data||{}; const id=d.id; if(!id) throw new Error('Kein Run gestartet');
+ const begin=Date.now();
+ while(Date.now()-begin<timeoutMs){
+   const x=await api('actor-runs/'+id); const st=x?.data?.status||'';
+   if(st==='SUCCEEDED'){
+     const ds=x.data.defaultDatasetId||d.defaultDatasetId;
+     const r=await fetch('https://api.apify.com/v2/datasets/'+ds+'/items?clean=true&format=json&token='+encodeURIComponent(saved()));
+     if(!r.ok) throw new Error('Dataset '+r.status);
+     return await r.json();
+   }
+   if(['FAILED','ABORTED','TIMED-OUT'].includes(st)) throw new Error(st);
+   await new Promise(r=>setTimeout(r,1500));
  }
- throw new Error('Zeitüberschreitung');
-}
-async function loadDataset(id){
- const t=saved();
- const r=await fetch('https://api.apify.com/v2/datasets/'+id+'/items?clean=true&format=json&token='+encodeURIComponent(t));
- if(!r.ok) throw new Error('Dataset '+r.status);
- return await r.json();
-}
-const CACHE_KEY='sparradar_offers_v16';
-const CACHE_TIME='sparradar_offers_time_v16';
-function catalog(){try{return JSON.parse(localStorage.getItem(CACHE_KEY)||'[]')}catch{return []}}
-function saveCatalog(items){localStorage.setItem(CACHE_KEY,JSON.stringify(items));localStorage.setItem(CACHE_TIME,String(Date.now()))}
-async function refreshCatalog(){
- if(!saved()) throw new Error('Bitte zuerst Token speichern.');
- results.innerHTML='<div class="empty">Angebote werden einmalig geladen …</div>';
- ls.textContent='Supermarkt-Angebote werden aktualisiert …';
- const x=await startRun({chains:['aldi-sued','aldi-nord','penny','edeka','lidl','rewe'],keywords:[],maxItems:500,maxPerChain:200,proxyConfiguration:{useApifyProxy:false}});
- const d=x?.data||{};
- const done=await waitRun(d.id);
- const items=await loadDataset(done.defaultDatasetId||d.defaultDatasetId);
- saveCatalog(Array.isArray(items)?items:[]);
- ls.textContent='Fertig · '+items.length+' Angebote gespeichert. Suchen geht jetzt sofort.';
- return items;
+ throw new Error('Zeitlimit');
 }
 $('check').onclick=async()=>{ts.textContent='Verbindung wird geprüft …';ts.className='status';try{await api('users/me');ts.textContent='Verbindung funktioniert. Live-Suche ist aktiv.';ts.className='status ok'}catch(e){ts.textContent='Verbindung fehlgeschlagen: '+e.message;ts.className='status err'}}
 document.querySelectorAll('.radius').forEach(b=>b.onclick=()=>{radius=+b.dataset.r;document.querySelectorAll('.radius').forEach(x=>x.classList.toggle('active',x===b));if(pos)$('loc').textContent='Standort · '+radius+' km'})
@@ -120,16 +103,29 @@ function render(items){
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 async function search(term){
  term=term.trim(); if(!term)return;
- let items=catalog();
- if(!items.length){
-   try{items=await refreshCatalog()}catch(e){results.innerHTML='<div class="empty">Angebote konnten nicht geladen werden.</div>';ls.textContent=e.message;return}
+ const chains=['lidl','rewe','aldi-nord','aldi-sued','penny','edeka'];
+ const names={'lidl':'Lidl','rewe':'REWE','aldi-nord':'ALDI Nord','aldi-sued':'ALDI Süd','penny':'PENNY','edeka':'EDEKA'};
+ let all=[],done=0,failed=0;
+ results.innerHTML='<div class="empty">Suche startet …</div>';
+ ls.textContent='0/6 Händler durchsucht';
+ await Promise.all(chains.map(async chain=>{
+   try{
+     const items=await runOne(chain,term,45000);
+     if(Array.isArray(items)&&items.length){all=all.concat(items);render(all)}
+   }catch(err){failed++}
+   finally{
+     done++;
+     ls.textContent=done+'/6 Händler durchsucht'+(failed?' · '+failed+' ohne Antwort':'');
+   }
+ }));
+ if(all.length){
+   render(all);
+   ls.textContent='Fertig · '+all.length+' passende Live-Angebote.';
+ }else{
+   results.innerHTML='<div class="empty">Keine passenden Live-Angebote gefunden.</div>';
+   ls.textContent='Fertig · kein Treffer'+(failed?' · '+failed+' Händler ohne Antwort':'');
  }
- const n=term.toLowerCase();
- const matches=items.filter(i=>[i.title,i.brand,i.description,i.category].filter(Boolean).join(' ').toLowerCase().includes(n));
- render(matches);
- ls.textContent=matches.length+' passende Angebote gefunden · sofort aus dem gespeicherten Katalog.';
 }
-$('refreshOffers').onclick=async()=>{try{await refreshCatalog()}catch(e){ls.textContent=e.message}}
 $('form').onsubmit=e=>{e.preventDefault();search(q.value)}
 document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{q.value=b.dataset.q;search(q.value)})
 </script>
