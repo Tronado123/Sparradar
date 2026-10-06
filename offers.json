@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T11:34:50.239Z",
-  "count": 346,
+  "updatedAt": "2026-10-06T11:23:49.794Z",
+  "count": 355,
   "categories": 114,
   "localPages": 33,
   "fallbackPages": 38,
@@ -68,30 +68,6 @@
     },
     {
       "query": "Ketchup",
-      "product": "Ketchup",
-      "brand": "BORN",
-      "retailer": "Penny",
-      "price": 1.29,
-      "priceText": "1,29 €",
-      "unit": "(1 l = 2.87)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Ketchup",
-      "product": "Mayonnaise oder Tomato Ketchup*",
-      "brand": "HEINZ",
-      "retailer": "Penny",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "(1 l = 3.52/3.49)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Ketchup",
       "product": "Gewürzketchup",
       "brand": "Hela",
       "retailer": "EDEKA",
@@ -110,6 +86,30 @@
       "price": 1.99,
       "priceText": "1,99 €",
       "unit": "(1L = 2.49)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Gewürzketchup",
+      "brand": "Hela",
+      "retailer": "E center",
+      "price": 2.29,
+      "priceText": "2,29 €",
+      "unit": "1 l = 7,63",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Tomato Ketchup",
+      "brand": "HEINZ",
+      "retailer": "Kaufland",
+      "price": 2.79,
+      "priceText": "2,79 €",
+      "unit": "(1 l = 3.49)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -231,6 +231,30 @@
       "priceText": "79,99 €",
       "unit": "",
       "discount": "14,91 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffee",
+      "product": "Kaffee- oder Teebereiter",
+      "brand": "bodum",
+      "retailer": "Netto Marken-Discount",
+      "price": 9.99,
+      "priceText": "9,99 €",
+      "unit": "",
+      "discount": "9,91 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffee",
+      "product": "Caffè Crema",
+      "brand": "Lavazza",
+      "retailer": "Penny",
+      "price": 12.99,
+      "priceText": "12,99 €",
+      "unit": "",
+      "discount": "9,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -634,6 +658,18 @@
       "query": "Quark",
       "product": "Frühlingsquark",
       "brand": "Milram",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.99,
+      "priceText": "1,99 €",
+      "unit": "1kg = 5.25",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Quark",
+      "product": "Frühlingsquark",
+      "brand": "Milram",
       "retailer": "Kaufland",
       "price": 1.99,
       "priceText": "1,99 €",
@@ -819,18 +855,6 @@
       "priceText": "1,19 €",
       "unit": "(1 kg = 2.38)",
       "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Toast",
-      "product": "Back- und Toastofen",
-      "brand": "SEVERIN",
-      "retailer": "Kaufland",
-      "price": 49.99,
-      "priceText": "49,99 €",
-      "unit": "",
-      "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -1796,6 +1820,18 @@
     },
     {
       "query": "Äpfel",
+      "product": "Äpfel Pink Lady",
+      "brand": "Pink Lady",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "App: 1 kg = 1.50",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Äpfel",
       "product": "Äpfel",
       "brand": "BioBio",
       "retailer": "Netto Marken-Discount",
@@ -1839,18 +1875,6 @@
       "priceText": "0,99 €",
       "unit": "",
       "discount": "0,30 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Äpfel",
-      "product": "Premium Apfel Direktsaft, naturtrüb",
-      "brand": "Solevita",
-      "retailer": "Lidl",
-      "price": 1.29,
-      "priceText": "1,29 €",
-      "unit": "",
-      "discount": "0,10 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2241,18 +2265,6 @@
     {
       "query": "Saft",
       "product": "Saft",
-      "brand": "hohes C",
-      "retailer": "Penny",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "",
-      "discount": "1,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Saft",
-      "product": "Saft",
       "brand": "Hohes C",
       "retailer": "Netto Marken-Discount",
       "price": 1.49,
@@ -2373,11 +2385,11 @@
     {
       "query": "Sekt",
       "product": "Sekt",
-      "brand": "Jules Mumm",
-      "retailer": "Penny",
+      "brand": "JULES MUMM",
+      "retailer": "Lidl",
       "price": 3.99,
       "priceText": "3,99 €",
-      "unit": "(1 l = 5.32)",
+      "unit": "1 l = 5.32",
       "discount": "1,50 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2385,11 +2397,11 @@
     {
       "query": "Sekt",
       "product": "Sekt",
-      "brand": "JULES MUMM",
-      "retailer": "Lidl",
+      "brand": "Jules Mumm",
+      "retailer": "Penny",
       "price": 3.99,
       "priceText": "3,99 €",
-      "unit": "1 l = 5.32",
+      "unit": "(1 l = 5.32)",
       "discount": "1,50 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2985,11 +2997,11 @@
     {
       "query": "Toilettenpapier",
       "product": "Toilettenpapier",
-      "brand": "ZEWA",
-      "retailer": "Kaufland",
-      "price": 5.99,
-      "priceText": "5,99 €",
-      "unit": "",
+      "brand": "Samelle",
+      "retailer": "Netto mit dem Scottie",
+      "price": 6.99,
+      "priceText": "6,99 €",
+      "unit": "1 Rolle = 0.35",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3237,6 +3249,18 @@
     {
       "query": "Duschgel",
       "product": "Duschgel",
+      "brand": "duschdas",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.79,
+      "priceText": "2,79 €",
+      "unit": "1 Liter = 4.14",
+      "discount": "0,90 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
+      "product": "Duschgel",
       "brand": "Palmolive",
       "retailer": "budni",
       "price": 0.99,
@@ -3269,6 +3293,18 @@
       "discount": "0,36 €",
       "source": "kaufDA",
       "scope": "Deutschland"
+    },
+    {
+      "query": "Rasierer",
+      "product": "Rasierer 5-Klingen Elegance Vorteilspack",
+      "brand": "Balea",
+      "retailer": "dm-drogerie markt",
+      "price": 5.75,
+      "priceText": "5,75 €",
+      "unit": "EUR 5,75 / 1 St",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
     },
     {
       "query": "Rasierer",
@@ -3357,11 +3393,11 @@
     {
       "query": "Windeln",
       "product": "Windeln",
-      "brand": "KUNIBOO",
-      "retailer": "Kaufland",
-      "price": 4.44,
-      "priceText": "4,44 €",
-      "unit": "(pro Stück = 0.10 - 0.14)",
+      "brand": "Millie Moon",
+      "retailer": "Rossmann",
+      "price": 6.99,
+      "priceText": "6,99 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3369,11 +3405,11 @@
     {
       "query": "Windeln",
       "product": "Windeln",
-      "brand": "Millie Moon",
-      "retailer": "Rossmann",
-      "price": 6.99,
-      "priceText": "6,99 €",
-      "unit": "",
+      "brand": "KUNIBOO",
+      "retailer": "Kaufland",
+      "price": 4.44,
+      "priceText": "4,44 €",
+      "unit": "(pro Stück = 0.10 - 0.14)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3668,6 +3704,18 @@
     },
     {
       "query": "Senf",
+      "product": "Senf Eimer",
+      "brand": "Bautz'ner",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "",
+      "discount": "0,60 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Senf",
       "product": "Thüringer Senf",
       "brand": "BORN",
       "retailer": "Kaufland",
@@ -3687,6 +3735,30 @@
       "priceText": "8,76 €",
       "unit": "",
       "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mayonnaise",
+      "product": "Mayonnaise",
+      "brand": "Jütro",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.39,
+      "priceText": "1,39 €",
+      "unit": "1kg = 2.78",
+      "discount": "0,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mayonnaise",
+      "product": "Espresso Mayonnaise",
+      "brand": "Ohne Marke",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 kg = 7.92",
+      "discount": "0,20 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3871,6 +3943,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Fertiggerichte",
+      "product": "Fertiggericht",
+      "brand": "Frosta",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.79,
+      "priceText": "2,79 €",
+      "unit": "1kg = 5.58",
+      "discount": "2,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Sahne",
       "product": "Bunte Sahne Platte",
       "brand": "Coppenrath & Wiese",
@@ -3929,6 +4013,18 @@
       "discount": "0,38 €",
       "source": "kaufDA",
       "scope": "Marl"
+    },
+    {
+      "query": "Pudding",
+      "product": "Sahnepudding Schoko",
+      "brand": "frija",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1,
+      "priceText": "1,00 €",
+      "unit": "1kg = 2.-",
+      "discount": "148,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
     },
     {
       "query": "Pudding",
@@ -4143,6 +4239,18 @@
       "priceText": "8,88 €",
       "unit": "",
       "discount": "1,11 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kerzen",
+      "product": "Kerzen",
+      "brand": "Ohne Marke",
+      "retailer": "Penny",
+      "price": 5.99,
+      "priceText": "5,99 €",
+      "unit": "",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
