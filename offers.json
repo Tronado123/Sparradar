@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-12T12:04:39.774Z",
-  "count": 314,
+  "updatedAt": "2026-10-13T11:53:13.214Z",
+  "count": 331,
   "categories": 114,
-  "localPages": 33,
-  "fallbackPages": 34,
+  "localPages": 34,
+  "fallbackPages": 36,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -14,6 +14,30 @@
       "price": 1.99,
       "priceText": "1,99 €",
       "unit": "4.98 / l",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "POM-BÄR Original, Ketchup oder Sour Cream",
+      "brand": "Ohne Marke",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 kg = 13.20",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Tomatenketchup XXL",
+      "brand": "Werder",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "1 Liter = 3.32",
       "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -235,6 +259,18 @@
       "scope": "Marl"
     },
     {
+      "query": "Filterkaffee",
+      "product": "Original Filterkaffee",
+      "brand": "Rondo",
+      "retailer": "Netto mit dem Scottie",
+      "price": 4.99,
+      "priceText": "4,99 €",
+      "unit": "1kg = 9.98",
+      "discount": "2,40 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Milch",
       "product": "fettarme H-Milch",
       "brand": "Gutes Land",
@@ -393,12 +429,36 @@
     {
       "query": "Margarine",
       "product": "Margarine",
+      "brand": "Rama",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 kg = 2.48",
+      "discount": "1,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Margarine",
+      "product": "Margarine",
       "brand": "becel",
       "retailer": "Penny",
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "1 kg = 5.73",
       "discount": "0,90 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Margarine",
+      "product": "Pflanzenmargarine",
+      "brand": "Sanella",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "1kg = 3.23",
+      "discount": "0,70 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -518,6 +578,18 @@
       "price": 0.99,
       "priceText": "0,99 €",
       "unit": "1 kg = 3.96",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Quark",
+      "product": "Speisequark",
+      "brand": "frija",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.79,
+      "priceText": "0,79 €",
+      "unit": "1kg = 3.16",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -675,6 +747,30 @@
       "priceText": "0,88 €",
       "unit": "",
       "discount": "0,41 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mehl",
+      "product": "Dinkelmehl Type 630",
+      "brand": "MAMONE",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.89,
+      "priceText": "0,89 €",
+      "unit": "",
+      "discount": "0,26 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mehl",
+      "product": "Qualitäts-Weizenmehl Type 405",
+      "brand": "Bördegold",
+      "retailer": "Netto mit dem Scottie",
+      "price": 0.49,
+      "priceText": "0,49 €",
+      "unit": "",
+      "discount": "0,10 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -1112,6 +1208,18 @@
     },
     {
       "query": "Gurken",
+      "product": "Gewürzgurken",
+      "brand": "Spreewaldhof",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.69,
+      "priceText": "1,69 €",
+      "unit": "1 kg = 4.69 - 4.02",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Gurken",
       "product": "Salatgurken",
       "brand": "GUT&GÜNSTIG",
       "retailer": "EDEKA",
@@ -1357,6 +1465,18 @@
       "retailer": "EDEKA",
       "price": 1.79,
       "priceText": "1,79 €",
+      "unit": "",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Äpfel",
+      "product": "Fruchtglühwein Beere oder Apfel-Zimt",
+      "brand": "Werder",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.99,
+      "priceText": "2,99 €",
       "unit": "",
       "discount": "1,00 €",
       "source": "kaufDA",
@@ -1975,6 +2095,30 @@
       "scope": "Marl"
     },
     {
+      "query": "Schokolade",
+      "product": "Schokolade",
+      "brand": "Toblerone",
+      "retailer": "Lidl",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "1 kg = 14.90",
+      "discount": "1,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Schokolade",
+      "product": "Schokolade",
+      "brand": "Milka",
+      "retailer": "Kaufland",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "(1 kg = 8.30 - 9.96)",
+      "discount": "1,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
       "query": "Chips",
       "product": "Krabbenchips",
       "brand": "K-CLASSIC ASIA",
@@ -2331,6 +2475,18 @@
       "priceText": "2,69 €",
       "unit": "1 kg = 5.38",
       "discount": "0,10 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Hackfleisch",
+      "product": "Hackfleisch gemischt",
+      "brand": "K-PURLAND",
+      "retailer": "Kaufland",
+      "price": 4.99,
+      "priceText": "4,99 €",
+      "unit": "",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -3008,6 +3164,18 @@
     },
     {
       "query": "Honig",
+      "product": "Blütenhonig",
+      "brand": "Bellafonde",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "1 kg = 4.98",
+      "discount": "0,40 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Honig",
       "product": "Tafelschokolade Honig-Salz-Mandel",
       "brand": "Fin Carré",
       "retailer": "Lidl",
@@ -3051,6 +3219,18 @@
       "priceText": "7,99 €",
       "unit": "1 kg = 15.98",
       "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Marmelade",
+      "product": "Konfitüre",
+      "brand": "Mühlhäuser",
+      "retailer": "Netto mit dem Scottie",
+      "price": 4.58,
+      "priceText": "4,58 €",
+      "unit": "1 kg = 3.39",
+      "discount": "2,29 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3104,6 +3284,18 @@
     },
     {
       "query": "Nutella",
+      "product": "B-Ready",
+      "brand": "Nutella",
+      "retailer": "Kaufland",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "(1 kg = 13.57)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
       "product": "Adventskalender",
       "brand": "nutella",
       "retailer": "Kaufland",
@@ -3128,12 +3320,12 @@
     },
     {
       "query": "Nutella",
-      "product": "B-Ready",
+      "product": "Nuss-Nougat-Creme",
       "brand": "Nutella",
-      "retailer": "Kaufland",
-      "price": 1.79,
-      "priceText": "1,79 €",
-      "unit": "(1 kg = 13.57)",
+      "retailer": "METRO",
+      "price": 24.56,
+      "priceText": "24,56 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3183,6 +3375,18 @@
       "priceText": "1,99 €",
       "unit": "4.98 / l",
       "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mayonnaise",
+      "product": "Feinkost Mayonnaise, Salatcreme oder Remoulade",
+      "brand": "Kunella",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.19,
+      "priceText": "1,19 €",
+      "unit": "1 Liter = 4.76",
+      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3355,18 +3559,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Fertiggerichte",
-      "product": "Fertiggericht XXL",
-      "brand": "Iglo",
-      "retailer": "Lidl",
-      "price": 4.69,
-      "priceText": "4,69 €",
-      "unit": "1 kg = 6.25/5.86",
-      "discount": "1,70 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Sahne",
       "product": "Schlagsahne",
       "brand": "Ohne Marke",
@@ -3524,6 +3716,18 @@
     },
     {
       "query": "Proteinprodukte",
+      "product": "High Protein Quarkriegel Vanille",
+      "brand": "Ohne Marke",
+      "retailer": "Netto mit dem Scottie",
+      "price": 1.58,
+      "priceText": "1,58 €",
+      "unit": "1 kg = 13.17",
+      "discount": "0,79 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Proteinprodukte",
       "product": "Protein-Tortilla-Chips Paprika",
       "brand": "MORE",
       "retailer": "Kaufland",
@@ -3631,18 +3835,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Proteinprodukte",
-      "product": "YoPro High-Protein-Drink",
-      "brand": "Danone",
-      "retailer": "EDEKA",
-      "price": 1.11,
-      "priceText": "1,11 €",
-      "unit": "1kg = 7,40",
-      "discount": "0,18 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Backpapier",
       "product": "Backpapier-Bögen",
       "brand": "Toppits",
@@ -3711,6 +3903,18 @@
       "priceText": "1,99 €",
       "unit": "",
       "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Batterien",
+      "product": "Batterien-Sparpack 24 + 1 inkl. Taschenlampe",
+      "brand": "GP",
+      "retailer": "Netto mit dem Scottie",
+      "price": 9.99,
+      "priceText": "9,99 €",
+      "unit": "",
+      "discount": "5,00 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
