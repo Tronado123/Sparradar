@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13T11:53:13.214Z",
-  "count": 331,
+  "updatedAt": "2026-10-14T09:39:08.252Z",
+  "count": 343,
   "categories": 114,
   "localPages": 34,
-  "fallbackPages": 36,
+  "fallbackPages": 37,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -225,6 +225,18 @@
     {
       "query": "Kaffee",
       "product": "Caffé Ganze Bohnen",
+      "brand": "Lavazza",
+      "retailer": "Lidl",
+      "price": 12.88,
+      "priceText": "12,88 €",
+      "unit": "",
+      "discount": "7,11 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffee",
+      "product": "Caffè",
       "brand": "Lavazza",
       "retailer": "Lidl",
       "price": 12.88,
@@ -482,6 +494,18 @@
       "price": 0.33,
       "priceText": "0,33 €",
       "unit": "1 kg = € 1.32",
+      "discount": "0,66 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Joghurt",
+      "product": "Fruchtjoghurt",
+      "brand": "Der Große Bauer",
+      "retailer": "EDEKA",
+      "price": 0.33,
+      "priceText": "0,33 €",
+      "unit": "Grundpreis 1 kg = 1,46/1,32",
       "discount": "0,66 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1064,6 +1088,18 @@
     },
     {
       "query": "Kartoffeln",
+      "product": "Marzipan kartoffeln",
+      "brand": "K-WINTER EDITION",
+      "retailer": "Kaufland",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(1 kg = 10.32)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kartoffeln",
       "product": "Süßkartoffeln",
       "brand": "Ohne Marke",
       "retailer": "REWE",
@@ -1082,18 +1118,6 @@
       "price": 1.69,
       "priceText": "1,69 €",
       "unit": "(1 kg = 3.38)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Kartoffeln",
-      "product": "Speisekartoffeln Cilena",
-      "brand": "NRW HeimatProdukt REWE",
-      "retailer": "REWE",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "1 kg = 0.80",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1375,6 +1399,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Zwiebeln",
+      "product": "Zwiebelwürfel",
+      "brand": "METRO Chef",
+      "retailer": "METRO",
+      "price": 3.84,
+      "priceText": "3,84 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Bananen",
       "product": "Bananen",
       "brand": "Chiquita",
@@ -1447,6 +1483,30 @@
       "scope": "Marl"
     },
     {
+      "query": "Bananen",
+      "product": "Quetschie Kirsche & Banane ab 6 Monaten",
+      "brand": "FruchtBar",
+      "retailer": "dm-drogerie markt",
+      "price": 0.85,
+      "priceText": "0,85 €",
+      "unit": "EUR 8,5 / 1 kg",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Bananen",
+      "product": "Quetschie Pfirsich, Süßkartoffel, Apfel, Banane & Hafer ab 6 Monaten",
+      "brand": "FruchtBar",
+      "retailer": "dm-drogerie markt",
+      "price": 0.85,
+      "priceText": "0,85 €",
+      "unit": "EUR 8,5 / 1 kg",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
       "query": "Äpfel",
       "product": "Dtsch./ital. Tafeläpfel »Nicoter«",
       "brand": "KANZI",
@@ -1472,24 +1532,24 @@
     },
     {
       "query": "Äpfel",
-      "product": "Fruchtglühwein Beere oder Apfel-Zimt",
-      "brand": "Werder",
-      "retailer": "Netto mit dem Scottie",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "",
-      "discount": "1,00 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Äpfel",
       "product": "Äpfel Pink Lady",
       "brand": "Pink Lady",
       "retailer": "Netto mit dem Scottie",
       "price": 2.99,
       "priceText": "2,99 €",
       "unit": "App: 1 kg = 1.50",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Äpfel",
+      "product": "Fruchtglühwein Beere oder Apfel-Zimt",
+      "brand": "Werder",
+      "retailer": "Netto mit dem Scottie",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "",
       "discount": "1,00 €",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -2144,12 +2204,12 @@
     },
     {
       "query": "Chips",
-      "product": "Kessel Chips",
-      "brand": "funny-frisch",
-      "retailer": "Lidl",
+      "product": "Crunchips Stackers",
+      "brand": "Lorenz",
+      "retailer": "E center",
       "price": 1.49,
       "priceText": "1,49 €",
-      "unit": "1 kg = 12.42",
+      "unit": "(1 kg = € 8.51)",
       "discount": "1,00 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2648,6 +2708,30 @@
     },
     {
       "query": "Toilettenpapier",
+      "product": "Feuchtes Toilettenpapier",
+      "brand": "Cottonelle",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toilettenpapier",
+      "product": "Toilettenpapier",
+      "brand": "Goldeimer",
+      "retailer": "budni",
+      "price": 3.33,
+      "priceText": "3,33 €",
+      "unit": "",
+      "discount": "0,66 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toilettenpapier",
       "product": "Toilettenpapier soft XXL",
       "brand": "FLORALYS",
       "retailer": "Lidl",
@@ -2852,18 +2936,6 @@
     },
     {
       "query": "Shampoo",
-      "product": "Shampoo Kräuter",
-      "brand": "Schauma",
-      "retailer": "REWE",
-      "price": 1.69,
-      "priceText": "1,69 €",
-      "unit": "1 l = 4.23",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Shampoo",
       "product": "KIDS 2 in 1 Shampoo & Dusche",
       "brand": "bevola",
       "retailer": "Kaufland",
@@ -2882,6 +2954,18 @@
       "price": 1.95,
       "priceText": "1,95 €",
       "unit": "(1 l = 9.75)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Shampoo",
+      "product": "Shampoo Kräuter",
+      "brand": "Schauma",
+      "retailer": "REWE",
+      "price": 1.69,
+      "priceText": "1,69 €",
+      "unit": "1 l = 4.23",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2936,6 +3020,18 @@
     },
     {
       "query": "Duschgel",
+      "product": "Duschgel",
+      "brand": "Duschdas",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 l = 4,40",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
       "product": "4-in-1-Duschgel",
       "brand": "BEYOND MEN",
       "retailer": "Kaufland",
@@ -2943,6 +3039,18 @@
       "priceText": "2,69 €",
       "unit": "(1 l = 5.38)",
       "discount": "0,56 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
+      "product": "Duschgel",
+      "brand": "Bali Skin",
+      "retailer": "budni",
+      "price": 3.49,
+      "priceText": "3,49 €",
+      "unit": "1 l = 13,96",
+      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2983,30 +3091,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Duschgel",
-      "product": "Duschgel",
-      "brand": "Duschdas",
-      "retailer": "REWE",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 l = 4.40)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Duschgel",
-      "product": "Duschgel",
-      "brand": "Old Spice",
-      "retailer": "REWE",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "(1 l = 7.96)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Rasierer",
       "product": "Rasierklingen",
       "brand": "Gillette",
@@ -3014,6 +3098,30 @@
       "price": 24.99,
       "priceText": "24,99 €",
       "unit": "( St. = 1.39 - 2.09)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Rasierer",
+      "product": "Elektrischer Rasierer, OneBlade Intimate Men QP1930/20",
+      "brand": "PHILIPS OneBlade",
+      "retailer": "dm-drogerie markt",
+      "price": 32.95,
+      "priceText": "32,95 €",
+      "unit": "EUR 32,95 / 1 St",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Rasierer",
+      "product": "Elektrischer Rasierer, OneBlade Intimate Women QP1930/22",
+      "brand": "PHILIPS OneBlade",
+      "retailer": "dm-drogerie markt",
+      "price": 32.95,
+      "priceText": "32,95 €",
+      "unit": "EUR 32,95 / 1 St",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3056,6 +3164,18 @@
     },
     {
       "query": "Windeln",
+      "product": "Windeln",
+      "brand": "KUNIBOO",
+      "retailer": "Kaufland",
+      "price": 4.44,
+      "priceText": "4,44 €",
+      "unit": "(pro Stück = 0.10 - 0.14)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Windeln",
       "product": "Baby-Dry Big Economy Pack Windeln XL",
       "brand": "Pampers",
       "retailer": "REWE",
@@ -3068,12 +3188,12 @@
     },
     {
       "query": "Windeln",
-      "product": "Windeln",
-      "brand": "KUNIBOO",
-      "retailer": "Kaufland",
-      "price": 4.44,
-      "priceText": "4,44 €",
-      "unit": "(pro Stück = 0.10 - 0.14)",
+      "product": "Windeln Biene Maja Gr. 2 mini (3-6 kg)",
+      "brand": "babylove",
+      "retailer": "dm-drogerie markt",
+      "price": 4.15,
+      "priceText": "4,15 €",
+      "unit": "EUR 0,15 / 1 St",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3439,6 +3559,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Essig",
+      "product": "Neutral- oder Essig Reiniger",
+      "brand": "Frosch",
+      "retailer": "budni",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Salz",
       "product": "Salz-Dill Gurken",
       "brand": "Schlichting",
@@ -3619,6 +3751,18 @@
       "scope": "Marl"
     },
     {
+      "query": "Sahne",
+      "product": "Schlagsahne",
+      "brand": "EDEKA Bio",
+      "retailer": "EDEKA",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "Grundpreis 1 kg = 4,95",
+      "discount": "0,20 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
       "query": "Pudding",
       "product": "Sahnepudding Schoko",
       "brand": "frija",
@@ -3788,6 +3932,18 @@
     },
     {
       "query": "Proteinprodukte",
+      "product": "Milk Protein Shake",
+      "brand": "Weider",
+      "retailer": "budni",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "1 l = 5,16",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Proteinprodukte",
       "product": "High Protein Pudding",
       "brand": "Ehrmann",
       "retailer": "Lidl",
@@ -3819,18 +3975,6 @@
       "priceText": "1,79 €",
       "unit": "1kg = 32,55",
       "discount": "0,36 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Proteinprodukte",
-      "product": "Protein-Bar",
-      "brand": "Koro",
-      "retailer": "budni",
-      "price": 1.69,
-      "priceText": "1,69 €",
-      "unit": "1 kg = 30,37/28,17",
-      "discount": "0,30 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
