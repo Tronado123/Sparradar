@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T09:32:56.973Z",
-  "count": 354,
+  "updatedAt": "2026-10-23T09:29:05.301Z",
+  "count": 359,
   "categories": 114,
   "localPages": 29,
   "fallbackPages": 40,
@@ -39,6 +39,18 @@
       "priceText": "1,79 €",
       "unit": "1l = 4,48",
       "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Tomaten Ketchup",
+      "brand": "Werder",
+      "retailer": "Penny",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "(1 l = 3.31)",
+      "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -86,18 +98,6 @@
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "(1 l = 2.87)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Ketchup",
-      "product": "Kindersnack Makkaroni Sticks mit Ketchup ab 3 Jahren",
-      "brand": "MOGLi",
-      "retailer": "dm-drogerie markt",
-      "price": 1.65,
-      "priceText": "1,65 €",
-      "unit": "EUR 41,25 / 1 kg",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -668,6 +668,18 @@
     },
     {
       "query": "Quark",
+      "product": "Quark",
+      "brand": "MILRAM",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 kg = 5.35)",
+      "discount": "0,46 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Quark",
       "product": "Lakomka Quark",
       "brand": "Berlin",
       "retailer": "EDEKA",
@@ -728,12 +740,12 @@
     },
     {
       "query": "Quark",
-      "product": "Speisequark",
-      "brand": "frija",
-      "retailer": "Netto mit dem Scottie",
-      "price": 0.79,
-      "priceText": "0,79 €",
-      "unit": "1kg = 3.16",
+      "product": "High Protein Quarkcreme",
+      "brand": "MILPRIMA",
+      "retailer": "Penny",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "1 kg = 6.45",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -764,6 +776,18 @@
     },
     {
       "query": "Eier",
+      "product": "Frische Eier aus Bodenhaltung",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 3.59,
+      "priceText": "3,59 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Eier",
       "product": "Teigrolle",
       "brand": "EDEKA zuhause",
       "retailer": "E center",
@@ -782,18 +806,6 @@
       "price": 3.45,
       "priceText": "3,45 €",
       "unit": "EUR 3,45 / 1 St",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Eier",
-      "product": "Frische Eier aus Bodenhaltung",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 3.59,
-      "priceText": "3,59 €",
-      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -866,6 +878,18 @@
       "price": 1.79,
       "priceText": "1,79 €",
       "unit": "(1 kg = 8.95)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toast",
+      "product": "Toaster MD 15709 FAMILY",
+      "brand": "medion",
+      "retailer": "Penny",
+      "price": 19.99,
+      "priceText": "19,99 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1004,12 +1028,12 @@
     },
     {
       "query": "Mehl",
-      "product": "Panko-Paniermehl",
-      "brand": "Ming Chu",
-      "retailer": "EDEKA",
-      "price": 2.29,
-      "priceText": "2,29 €",
-      "unit": "1kg = 11,45",
+      "product": "Panko Paniermehl",
+      "brand": "Leimer",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 kg = 5.66)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1078,18 +1102,6 @@
       "query": "Zucker",
       "product": "Raffinadezucker",
       "brand": "GUT & GÜNSTIG",
-      "retailer": "EDEKA",
-      "price": 0.88,
-      "priceText": "0,88 €",
-      "unit": "",
-      "discount": "0,11 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Zucker",
-      "product": "Raffinade Zucker",
-      "brand": "Gut & Günstig",
       "retailer": "EDEKA",
       "price": 0.88,
       "priceText": "0,88 €",
@@ -1580,24 +1592,24 @@
     },
     {
       "query": "Zwiebeln",
-      "product": "Zwiebeln",
-      "brand": "Ohne Marke",
-      "retailer": "Kaufland",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "(1 kg = 0.75)",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Zwiebeln",
       "product": "Bio-Speisezwiebeln, rot",
       "brand": "EDEKA Heimatliebe",
       "retailer": "EDEKA",
       "price": 0.99,
       "priceText": "0,99 €",
       "unit": "1kg = 1,98",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Zwiebeln",
+      "product": "Zwiebeln",
+      "brand": "Ohne Marke",
+      "retailer": "Kaufland",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "(1 kg = 0.75)",
       "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1657,7 +1669,7 @@
       "retailer": "REWE",
       "price": 1.29,
       "priceText": "1,29 €",
-      "unit": "(1 kg = 0.86)",
+      "unit": "1 kg = 0.86",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1669,19 +1681,7 @@
       "retailer": "REWE",
       "price": 1.29,
       "priceText": "1,29 €",
-      "unit": "1 kg = 0.86",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Zwiebeln",
-      "product": "Bio-Zwiebeln, rot",
-      "brand": "EDEKA Demeter",
-      "retailer": "E center",
-      "price": 2.49,
-      "priceText": "2,49 €",
-      "unit": "",
+      "unit": "(1 kg = 0.86)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1761,10 +1761,10 @@
     {
       "query": "Bananen",
       "product": "Bananen",
-      "brand": "Chiquita",
-      "retailer": "E center",
-      "price": 1.99,
-      "priceText": "1,99 €",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 1.29,
+      "priceText": "1,29 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -1773,10 +1773,10 @@
     {
       "query": "Bananen",
       "product": "Bananen",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 1.29,
-      "priceText": "1,29 €",
+      "brand": "Chiquita",
+      "retailer": "E center",
+      "price": 1.99,
+      "priceText": "1,99 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -1891,18 +1891,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Äpfel",
-      "product": "Apfel-Rotkohl",
-      "brand": "SPREEWALDHOF",
-      "retailer": "Kaufland",
-      "price": 1.29,
-      "priceText": "1,29 €",
-      "unit": "(1kg = 3.23)",
-      "discount": "0,70 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Orangen",
       "product": "Orangen-Reiniger",
       "brand": "EASYWAX",
@@ -1999,16 +1987,16 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Orangen",
-      "product": "Orangen-Direktsaft",
-      "brand": "GUT&GÜNSTIG",
-      "retailer": "E center",
-      "price": 2.59,
-      "priceText": "2,59 €",
-      "unit": "",
-      "discount": "",
+      "query": "Cola",
+      "product": "Coca-Cola",
+      "brand": "Ohne Marke",
+      "retailer": "Netto Marken-Discount",
+      "price": 13.99,
+      "priceText": "13,99 €",
+      "unit": "(1.40 / l)",
+      "discount": "7,80 €",
       "source": "kaufDA",
-      "scope": "Deutschland"
+      "scope": "Marl"
     },
     {
       "query": "Cola",
@@ -2048,6 +2036,18 @@
     },
     {
       "query": "Cola",
+      "product": "FANTA, COCA-COLA, SPRITE oder MEZZO MIX",
+      "brand": "Fanta",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 l = 0.79)",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Cola",
       "product": "Coca-Cola, Fanta, Sprite oder Mezzo Mix",
       "brand": "Ohne Marke",
       "retailer": "Netto Marken-Discount",
@@ -2072,6 +2072,18 @@
     },
     {
       "query": "Cola",
+      "product": "Coca-Cola",
+      "brand": "Ohne Marke",
+      "retailer": "Netto Marken-Discount",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(0.86 / l)",
+      "discount": "0,60 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Cola",
       "product": "Erfrischungsgetränk",
       "brand": "Coca-Cola",
       "retailer": "Penny",
@@ -2081,6 +2093,18 @@
       "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Marl"
+    },
+    {
+      "query": "Limonade",
+      "product": "Fanta",
+      "brand": "Ohne Marke",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 l = 0.79",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
     },
     {
       "query": "Mineralwasser",
@@ -2355,6 +2379,18 @@
       "priceText": "2,49 €",
       "unit": "(3.32 / l)",
       "discount": "2,30 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Sekt",
+      "product": "Sekt",
+      "brand": "Rotkäppchen",
+      "retailer": "Penny",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "1 l = 3.99",
+      "discount": "2,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2708,18 +2744,6 @@
     },
     {
       "query": "Pommes",
-      "product": "Pommes XXL",
-      "brand": "Harvest Basket",
-      "retailer": "Lidl",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "1 kg = 1.20",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Pommes",
       "product": "Pommes",
       "brand": "MCENNEDY",
       "retailer": "Lidl",
@@ -3009,11 +3033,11 @@
     {
       "query": "Allzweckreiniger",
       "product": "Allzweckreiniger",
-      "brand": "GUT&GÜNSTIG",
-      "retailer": "E center",
+      "brand": "W5",
+      "retailer": "Lidl",
       "price": 1.39,
       "priceText": "1,39 €",
-      "unit": "1 l = 0,93",
+      "unit": "1 l = 0.93",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3021,11 +3045,11 @@
     {
       "query": "Allzweckreiniger",
       "product": "Allzweckreiniger",
-      "brand": "W5",
-      "retailer": "Lidl",
+      "brand": "GUT&GÜNSTIG",
+      "retailer": "E center",
       "price": 1.39,
       "priceText": "1,39 €",
-      "unit": "1 l = 0.93",
+      "unit": "1 l = 0,93",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3464,24 +3488,24 @@
     },
     {
       "query": "Katzenstreu",
-      "product": "Katzenstreu",
-      "brand": "Ohne Marke",
-      "retailer": "Thomas Philipps",
-      "price": 3.98,
-      "priceText": "3,98 €",
-      "unit": "(1 L = -,66)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Katzenstreu",
       "product": "Katzenstreu XXL",
       "brand": "MILA'S WORLD",
       "retailer": "Lidl",
       "price": 3.99,
       "priceText": "3,99 €",
       "unit": "1 L = 0,50",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Katzenstreu",
+      "product": "Katzenstreu",
+      "brand": "Ohne Marke",
+      "retailer": "Thomas Philipps",
+      "price": 3.98,
+      "priceText": "3,98 €",
+      "unit": "(1 L = -,66)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3608,9 +3632,33 @@
     },
     {
       "query": "Honig",
+      "product": "XXL Imkerhonig",
+      "brand": "MEISSEN XXL",
+      "retailer": "Penny",
+      "price": 8.99,
+      "priceText": "8,99 €",
+      "unit": "",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Honig",
       "product": "Blütenhonig cremig",
       "brand": "K-CLASSIC",
       "retailer": "Kaufland",
+      "price": 2.29,
+      "priceText": "2,29 €",
+      "unit": "(1 kg = 4.58)",
+      "discount": "0,40 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Honig",
+      "product": "Blütenhonig",
+      "brand": "SOLBELLA",
+      "retailer": "Penny",
       "price": 2.29,
       "priceText": "2,29 €",
       "unit": "(1 kg = 4.58)",
@@ -3631,18 +3679,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Honig",
-      "product": "Tafelschokolade Honig-Salz-Mandel",
-      "brand": "Fin Carré",
-      "retailer": "Lidl",
-      "price": 2.19,
-      "priceText": "2,19 €",
-      "unit": "1 kg = 10.95",
-      "discount": "0,20 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Marmelade",
       "product": "Konfitüre",
       "brand": "Mühlhäuser",
@@ -3656,24 +3692,24 @@
     },
     {
       "query": "Nutella",
-      "product": "NUTELLA",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 3.99,
-      "priceText": "3,99 €",
-      "unit": "1 kg = 7.98",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Nutella",
       "product": "Nutella",
       "brand": "Ferrero",
       "retailer": "Lidl",
       "price": 3.99,
       "priceText": "3,99 €",
       "unit": "1 kg = 8.87",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "NUTELLA",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 3.99,
+      "priceText": "3,99 €",
+      "unit": "1 kg = 7.98",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3896,6 +3932,18 @@
     },
     {
       "query": "Fertiggerichte",
+      "product": "Fertiggericht XXL",
+      "brand": "iglo",
+      "retailer": "Penny",
+      "price": 3.99,
+      "priceText": "3,99 €",
+      "unit": "(1 kg = 4.99)",
+      "discount": "2,40 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Fertiggerichte",
       "product": "Fertiggerichte",
       "brand": "Frosta",
       "retailer": "Netto Marken-Discount",
@@ -4064,6 +4112,18 @@
     },
     {
       "query": "Pudding",
+      "product": "Sahnepudding",
+      "brand": "ROMA",
+      "retailer": "Penny",
+      "price": 0.39,
+      "priceText": "0,39 €",
+      "unit": "1 kg = 1.95",
+      "discount": "0,10 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Pudding",
       "product": "High Protein Pudding Schoko",
       "brand": "Dr. Oetker",
       "retailer": "REWE",
@@ -4207,6 +4267,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Backpapier",
+      "product": "Backpapier für Heißluftfritteuse und Backofen Gr. S",
+      "brand": "Profissimo",
+      "retailer": "dm-drogerie markt",
+      "price": 2.45,
+      "priceText": "2,45 €",
+      "unit": "EUR 0,06 / 1 St",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Batterien",
       "product": "Longlife Power Batterien AA oder AAA",
       "brand": "Varta",
@@ -4239,18 +4311,6 @@
       "priceText": "3,99 €",
       "unit": "",
       "discount": "2,00 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Fleckenentferner",
-      "product": "Fleckenentferner Teppich Bürste",
-      "brand": "Dr. Beckmann",
-      "retailer": "dm-drogerie markt",
-      "price": 3.95,
-      "priceText": "3,95 €",
-      "unit": "EUR 7,18 / 1 l",
-      "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     }
