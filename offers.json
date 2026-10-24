@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T09:29:05.301Z",
-  "count": 359,
+  "updatedAt": "2026-10-24T09:00:31.908Z",
+  "count": 356,
   "categories": 114,
   "localPages": 29,
   "fallbackPages": 40,
@@ -87,6 +87,18 @@
       "priceText": "0,99 €",
       "unit": "1Liter = 1.98",
       "discount": "0,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Gewürzketchup",
+      "brand": "Hela",
+      "retailer": "Thomas Philipps",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(1 L = 2,58)",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -236,8 +248,20 @@
     },
     {
       "query": "Kaffee",
+      "product": "Caffè Crema",
+      "brand": "Lavazza",
+      "retailer": "Penny",
+      "price": 12.99,
+      "priceText": "12,99 €",
+      "unit": "",
+      "discount": "9,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffee",
       "product": "Caffé Ganze Bohnen",
-      "brand": "LAVAZZA",
+      "brand": "Lavazza",
       "retailer": "Lidl",
       "price": 12.88,
       "priceText": "12,88 €",
@@ -267,30 +291,6 @@
       "priceText": "12,99 €",
       "unit": "",
       "discount": "6,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Kaffee",
-      "product": "Caffé",
-      "brand": "MÖVENPICK",
-      "retailer": "Lidl",
-      "price": 13.99,
-      "priceText": "13,99 €",
-      "unit": "",
-      "discount": "5,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Kaffee",
-      "product": "Caffé",
-      "brand": "Käfer",
-      "retailer": "Netto Marken-Discount",
-      "price": 9.99,
-      "priceText": "9,99 €",
-      "unit": "",
-      "discount": "5,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -512,24 +512,24 @@
     },
     {
       "query": "Butter",
+      "product": "Streichzart ungesalzen oder Feine Butter",
+      "brand": "MEGGLE",
+      "retailer": "Penny",
+      "price": 1.39,
+      "priceText": "1,39 €",
+      "unit": "1 kg = 5.56",
+      "discount": "1,40 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Butter",
       "product": "mit Butter XXL",
       "brand": "Rama",
       "retailer": "Netto Marken-Discount",
       "price": 1.99,
       "priceText": "1,99 €",
       "unit": "(4.98 / kg)",
-      "discount": "1,30 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
-      "product": "Beste Butter",
-      "brand": "Frau Antje",
-      "retailer": "Lidl",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "1 kg = 5.96",
       "discount": "1,30 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -769,6 +769,18 @@
       "retailer": "EDEKA",
       "price": 4.19,
       "priceText": "4,19 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Eier",
+      "product": "Halloween-Eier",
+      "brand": "Ohne Marke",
+      "retailer": "Penny",
+      "price": 2.99,
+      "priceText": "2,99 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -1027,18 +1039,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Mehl",
-      "product": "Panko Paniermehl",
-      "brand": "Leimer",
-      "retailer": "Penny",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 kg = 5.66)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Zucker",
       "product": "Vanillinzucker",
       "brand": "Dr. Oetker",
@@ -1102,6 +1102,18 @@
       "query": "Zucker",
       "product": "Raffinadezucker",
       "brand": "GUT & GÜNSTIG",
+      "retailer": "EDEKA",
+      "price": 0.88,
+      "priceText": "0,88 €",
+      "unit": "",
+      "discount": "0,11 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Zucker",
+      "product": "Raffinade Zucker",
+      "brand": "Gut & Günstig",
       "retailer": "EDEKA",
       "price": 0.88,
       "priceText": "0,88 €",
@@ -1669,7 +1681,7 @@
       "retailer": "REWE",
       "price": 1.29,
       "priceText": "1,29 €",
-      "unit": "1 kg = 0.86",
+      "unit": "(1 kg = 0.86)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1681,7 +1693,19 @@
       "retailer": "REWE",
       "price": 1.29,
       "priceText": "1,29 €",
-      "unit": "(1 kg = 0.86)",
+      "unit": "1 kg = 0.86",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Zwiebeln",
+      "product": "Speisezwiebeln",
+      "brand": "Ohne Marke",
+      "retailer": "Thomas Philipps",
+      "price": 2.89,
+      "priceText": "2,89 €",
+      "unit": "(1 kg = -,58)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1761,10 +1785,10 @@
     {
       "query": "Bananen",
       "product": "Bananen",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 1.29,
-      "priceText": "1,29 €",
+      "brand": "Chiquita",
+      "retailer": "E center",
+      "price": 1.99,
+      "priceText": "1,99 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -1773,10 +1797,10 @@
     {
       "query": "Bananen",
       "product": "Bananen",
-      "brand": "Chiquita",
-      "retailer": "E center",
-      "price": 1.99,
-      "priceText": "1,99 €",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 1.29,
+      "priceText": "1,29 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -2036,24 +2060,24 @@
     },
     {
       "query": "Cola",
-      "product": "FANTA, COCA-COLA, SPRITE oder MEZZO MIX",
-      "brand": "Fanta",
-      "retailer": "Penny",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 l = 0.79)",
-      "discount": "0,70 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Cola",
       "product": "Coca-Cola, Fanta, Sprite oder Mezzo Mix",
       "brand": "Ohne Marke",
       "retailer": "Netto Marken-Discount",
       "price": 1.49,
       "priceText": "1,49 €",
       "unit": "(0.75 / l)",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Cola",
+      "product": "FANTA, COCA-COLA, SPRITE oder MEZZO MIX",
+      "brand": "Fanta",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 l = 0.79)",
       "discount": "0,70 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2228,6 +2252,18 @@
     },
     {
       "query": "Saft",
+      "product": "Fruchtsaftgetränk",
+      "brand": "Capri-Sun",
+      "retailer": "Penny",
+      "price": 3.29,
+      "priceText": "3,29 €",
+      "unit": "(1 l = 1.65)",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Saft",
       "product": "Saft",
       "brand": "Valensina",
       "retailer": "Netto Marken-Discount",
@@ -2335,18 +2371,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Wein",
-      "product": "Schoppenwein Weißwein lieblich",
-      "brand": "Ohne Marke",
-      "retailer": "Netto mit dem Scottie",
-      "price": 5,
-      "priceText": "5,00 €",
-      "unit": "1 Liter = 1.67",
-      "discount": "3,37 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Sekt",
       "product": "Jahrgangs-sekt",
       "brand": "MUMM",
@@ -2415,18 +2439,6 @@
       "priceText": "2,99 €",
       "unit": "(1 kg = 16.61)",
       "discount": "1,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Schokolade",
-      "product": "Lindor Tafelschokolade",
-      "brand": "Lindt",
-      "retailer": "Rossmann",
-      "price": 2.79,
-      "priceText": "2,79 €",
-      "unit": "1 kg = 27.90",
-      "discount": "1,20 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2707,18 +2719,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Pizza",
-      "product": "Amore Napoli Pizza",
-      "brand": "Gustavo Gusto",
-      "retailer": "E center",
-      "price": 2.69,
-      "priceText": "2,69 €",
-      "unit": "(1 kg = ab € 8.03)",
-      "discount": "1,10 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Pommes",
       "product": "Pommes frites",
       "brand": "GUSTORIA",
@@ -2738,18 +2738,6 @@
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "(1 kg = 10.32)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Pommes",
-      "product": "Pommes",
-      "brand": "MCENNEDY",
-      "retailer": "Lidl",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "1 kg = 2.49",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -2900,6 +2888,18 @@
     },
     {
       "query": "Wurst",
+      "product": "Salami",
+      "brand": "WILTMANN",
+      "retailer": "Penny",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "1 kg = 16.13",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Wurst",
       "product": "Geflügelfleischwurst",
       "brand": "Gutfried",
       "retailer": "Netto Marken-Discount",
@@ -2919,18 +2919,6 @@
       "priceText": "1,39 €",
       "unit": "1 kg = 13.90",
       "discount": "0,60 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Wurst",
-      "product": "Französische Jagdwurst",
-      "brand": "aubret",
-      "retailer": "Netto Marken-Discount",
-      "price": 2.49,
-      "priceText": "2,49 €",
-      "unit": "(7.11 / kg)",
-      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -3033,18 +3021,6 @@
     {
       "query": "Allzweckreiniger",
       "product": "Allzweckreiniger",
-      "brand": "W5",
-      "retailer": "Lidl",
-      "price": 1.39,
-      "priceText": "1,39 €",
-      "unit": "1 l = 0.93",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Allzweckreiniger",
-      "product": "Allzweckreiniger",
       "brand": "GUT&GÜNSTIG",
       "retailer": "E center",
       "price": 1.39,
@@ -3057,11 +3033,11 @@
     {
       "query": "Allzweckreiniger",
       "product": "Allzweckreiniger",
-      "brand": "Der General",
-      "retailer": "Rossmann",
-      "price": 1.59,
-      "priceText": "1,59 €",
-      "unit": "1 l = 2.12",
+      "brand": "W5",
+      "retailer": "Lidl",
+      "price": 1.39,
+      "priceText": "1,39 €",
+      "unit": "1 l = 0.93",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3122,18 +3098,6 @@
       "price": 3.75,
       "priceText": "3,75 €",
       "unit": "1 l = 12.50",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Zahnpasta",
-      "product": "Zahncreme Doppel-Schutz Zahnfleisch & Zähne",
-      "brand": "Aronal & Elmex",
-      "retailer": "Rossmann",
-      "price": 6.79,
-      "priceText": "6,79 €",
-      "unit": "1 l = 45.27",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3451,26 +3415,50 @@
       "scope": "Marl"
     },
     {
-      "query": "Rasierer",
-      "product": "Mach 3 Rasierklingen",
-      "brand": "Gillette",
-      "retailer": "Rossmann",
-      "price": 12,
-      "priceText": "12,00 €",
-      "unit": "",
+      "query": "Windeln",
+      "product": "Windeln Biene Maja Gr. 2 mini (3-6 kg)",
+      "brand": "babylove",
+      "retailer": "dm-drogerie markt",
+      "price": 4.15,
+      "priceText": "4,15 €",
+      "unit": "EUR 0,15 / 1 St",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
     {
       "query": "Windeln",
-      "product": "Mullwindeln oder Wickelunterlage",
-      "brand": "Babydream",
-      "retailer": "Rossmann",
-      "price": 5.99,
-      "priceText": "5,99 €",
-      "unit": "",
-      "discount": "1,00 €",
+      "product": "Schwimmwindeln Disney Gr. Extralarge (13+ kg)",
+      "brand": "babylove",
+      "retailer": "dm-drogerie markt",
+      "price": 3.75,
+      "priceText": "3,75 €",
+      "unit": "EUR 0,31 / 1 St",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Windeln",
+      "product": "Schwimmwindeln Disney Gr. Large (10-14 kg)",
+      "brand": "babylove",
+      "retailer": "dm-drogerie markt",
+      "price": 3.75,
+      "priceText": "3,75 €",
+      "unit": "EUR 0,31 / 1 St",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Windeln",
+      "product": "Schwimmwindeln Disney Gr. Small (4-9 kg)",
+      "brand": "babylove",
+      "retailer": "dm-drogerie markt",
+      "price": 3.75,
+      "priceText": "3,75 €",
+      "unit": "EUR 0,31 / 1 St",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -4003,18 +3991,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Sahne",
-      "product": "Frische Schlagsahne",
-      "brand": "Ohne Marke",
-      "retailer": "E center",
-      "price": 0.69,
-      "priceText": "0,69 €",
-      "unit": "(1 kg = € 3.45)",
-      "discount": "0,20 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Pudding",
       "product": "High Protein Milchreis/Pudding",
       "brand": "Dr. Oetker",
@@ -4267,18 +4243,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Backpapier",
-      "product": "Backpapier für Heißluftfritteuse und Backofen Gr. S",
-      "brand": "Profissimo",
-      "retailer": "dm-drogerie markt",
-      "price": 2.45,
-      "priceText": "2,45 €",
-      "unit": "EUR 0,06 / 1 St",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Batterien",
       "product": "Longlife Power Batterien AA oder AAA",
       "brand": "Varta",
@@ -4304,13 +4268,13 @@
     },
     {
       "query": "Batterien",
-      "product": "Plus Batterien Mignon AA oder Micro AAA",
-      "brand": "Duracell",
-      "retailer": "Rossmann",
-      "price": 3.99,
-      "priceText": "3,99 €",
+      "product": "Alkaline Batterien",
+      "brand": "Brave",
+      "retailer": "Thomas Philipps",
+      "price": 6.66,
+      "priceText": "6,66 €",
       "unit": "",
-      "discount": "2,00 €",
+      "discount": "1,32 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     }
