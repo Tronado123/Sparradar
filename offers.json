@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-10T12:44:25.027Z",
-  "count": 337,
+  "updatedAt": "2026-11-11T12:00:18.478Z",
+  "count": 338,
   "categories": 114,
   "localPages": 32,
-  "fallbackPages": 33,
+  "fallbackPages": 32,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -152,6 +152,18 @@
     },
     {
       "query": "Waschmittel",
+      "product": "Flüssigwaschmittel",
+      "brand": "PERWOLL",
+      "retailer": "ALDI Nord",
+      "price": 8.99,
+      "priceText": "8,99 €",
+      "unit": "(Anwendung = 0.17)",
+      "discount": "3,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Waschmittel",
       "product": "Waschpulver XL",
       "brand": "Persil",
       "retailer": "Thomas Philipps",
@@ -194,18 +206,6 @@
       "price": 8.88,
       "priceText": "8,88 €",
       "unit": "(1 WL = 0.09)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Waschmittel",
-      "product": "Colorwaschmittel Kraft-Gel",
-      "brand": "Persil",
-      "retailer": "REWE",
-      "price": 16.99,
-      "priceText": "16,99 €",
-      "unit": "(1 WL = 0.17)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -871,18 +871,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Toast",
-      "product": "Doppelschlitz-Toaster",
-      "brand": "SILVERCREST",
-      "retailer": "Lidl",
-      "price": 19.99,
-      "priceText": "19,99 €",
-      "unit": "",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Mehl",
       "product": "Weizenmehl Type 405 XXL",
       "brand": "Diamant",
@@ -1016,24 +1004,24 @@
     },
     {
       "query": "Zucker",
-      "product": "Brauner Roh-Rohrzucker",
-      "brand": "Puda",
-      "retailer": "Penny",
+      "product": "Brauner Rohrzucker",
+      "brand": "Ohne Marke",
+      "retailer": "ALDI Nord",
       "price": 1.29,
       "priceText": "1,29 €",
-      "unit": "1 kg = 2.58",
+      "unit": "(kg = 2.58)",
       "discount": "0,20 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
     {
       "query": "Zucker",
-      "product": "Bourbon-Vanillezucker",
-      "brand": "EDEKA Herstücke",
-      "retailer": "EDEKA",
-      "price": 0.79,
-      "priceText": "0,79 €",
-      "unit": "(1 kg = € 49.38)",
+      "product": "Brauner Roh-Rohrzucker",
+      "brand": "Puda",
+      "retailer": "Penny",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "1 kg = 2.58",
       "discount": "0,20 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1054,7 +1042,7 @@
       "query": "Zucker",
       "product": "Bourbon-Vanillezucker",
       "brand": "EDEKA Herstücke",
-      "retailer": "E center",
+      "retailer": "EDEKA",
       "price": 0.79,
       "priceText": "0,79 €",
       "unit": "(1 kg = € 49.38)",
@@ -1064,13 +1052,13 @@
     },
     {
       "query": "Zucker",
-      "product": "Puderzucker",
-      "brand": "DIAMANT",
-      "retailer": "Kaufland",
-      "price": 0.39,
-      "priceText": "0,39 €",
-      "unit": "(1 kg = 1.56)",
-      "discount": "0,10 €",
+      "product": "Bourbon-Vanillezucker",
+      "brand": "EDEKA Herstücke",
+      "retailer": "E center",
+      "price": 0.79,
+      "priceText": "0,79 €",
+      "unit": "(1 kg = € 49.38)",
+      "discount": "0,20 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -1304,6 +1292,18 @@
     },
     {
       "query": "Tomaten",
+      "product": "Cherrydatteltomaten",
+      "brand": "Ohne Marke",
+      "retailer": "ALDI Nord",
+      "price": 1.69,
+      "priceText": "1,69 €",
+      "unit": "(kg = 3.38)",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Tomaten",
       "product": "Tomaten-Gemüse Mix",
       "brand": "BioBio",
       "retailer": "Netto Marken-Discount",
@@ -1358,18 +1358,6 @@
       "price": 1.19,
       "priceText": "1,19 €",
       "unit": "(1 kg = 4.76)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Tomaten",
-      "product": "Rispentomaten",
-      "brand": "Ohne Marke",
-      "retailer": "EDEKA",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1532,6 +1520,18 @@
     },
     {
       "query": "Paprika",
+      "product": "Fleischklößchen in Paprika",
+      "brand": "Speisezeit",
+      "retailer": "ALDI Nord",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "(1kg = 4.61)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Paprika",
       "product": "Rote Paprika",
       "brand": "Ohne Marke",
       "retailer": "Penny",
@@ -1574,18 +1574,6 @@
       "price": 1.89,
       "priceText": "1,89 €",
       "unit": "(1 kg = 9.45)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Paprika",
-      "product": "Rote Paprika, lose",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1676,6 +1664,30 @@
     },
     {
       "query": "Bananen",
+      "product": "Bananen",
+      "brand": "bio",
+      "retailer": "ALDI Nord",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "(kg = 1.49)",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Bananen",
+      "product": "Bio Bananen",
+      "brand": "Fairtrade",
+      "retailer": "ALDI Nord",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "(kg = 1.49)",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Bananen",
       "product": "Hippis Apfel Birne Banane",
       "brand": "Hipp",
       "retailer": "REWE",
@@ -1712,8 +1724,8 @@
     },
     {
       "query": "Bananen",
-      "product": "Bananen",
-      "brand": "Gut & Günstig",
+      "product": "Kamerun Bananen",
+      "brand": "Ohne Marke",
       "retailer": "EDEKA",
       "price": 1.11,
       "priceText": "1,11 €",
@@ -1724,8 +1736,8 @@
     },
     {
       "query": "Bananen",
-      "product": "Kamerun Bananen",
-      "brand": "Ohne Marke",
+      "product": "Bananen",
+      "brand": "Gut & Günstig",
       "retailer": "EDEKA",
       "price": 1.11,
       "priceText": "1,11 €",
@@ -1892,6 +1904,18 @@
     },
     {
       "query": "Orangen",
+      "product": "Magnesium Verla 300 Typ Orange",
+      "brand": "Ohne Marke",
+      "retailer": "budni",
+      "price": 5.99,
+      "priceText": "5,99 €",
+      "unit": "",
+      "discount": "3,71 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Orangen",
       "product": "Orange",
       "brand": "Deit",
       "retailer": "REWE",
@@ -1959,18 +1983,6 @@
       "priceText": "1,79 €",
       "unit": "1 kg = 5.97",
       "discount": "0,20 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Orangen",
-      "product": "Mandarin-Orangen",
-      "brand": "K-CLASSIC",
-      "retailer": "Kaufland",
-      "price": 0.75,
-      "priceText": "0,75 €",
-      "unit": "(1 kg = 4.29)",
-      "discount": "0,14 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2081,30 +2093,6 @@
       "discount": "0,70 €",
       "source": "kaufDA",
       "scope": "Marl"
-    },
-    {
-      "query": "Limonade",
-      "product": "Limonade",
-      "brand": "Superpop",
-      "retailer": "REWE",
-      "price": 3.38,
-      "priceText": "3,38 €",
-      "unit": "(1 l = 3.41)",
-      "discount": "1,69 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Limonade",
-      "product": "Coca-Cola, Coca-Cola Zero oder Fanta",
-      "brand": "Ohne Marke",
-      "retailer": "Netto mit dem Scottie",
-      "price": 3.49,
-      "priceText": "3,49 €",
-      "unit": "1 Liter = 1.76",
-      "discount": "1,00 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
     },
     {
       "query": "Mineralwasser",
@@ -2323,18 +2311,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Wein",
-      "product": "Vin d’Alsace Gewürztraminer AOP Weißwein",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 5.99,
-      "priceText": "5,99 €",
-      "unit": "1 l = 7.99",
-      "discount": "3,00 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Sekt",
       "product": "Jahrgangssekt",
       "brand": "MUMM",
@@ -2419,6 +2395,18 @@
       "scope": "Marl"
     },
     {
+      "query": "Schokolade",
+      "product": "Tafelschokolade",
+      "brand": "Marabou",
+      "retailer": "ALDI Nord",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "(kg = 18.69/17.59)",
+      "discount": "2,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
       "query": "Chips",
       "product": "Crunchips XXL",
       "brand": "LORENZ",
@@ -2427,6 +2415,30 @@
       "priceText": "1,79 €",
       "unit": "1 kg = 8.14",
       "discount": "1,10 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Chips",
+      "product": "Ofen-Chips",
+      "brand": "funny-frisch",
+      "retailer": "ALDI Nord",
+      "price": 1.11,
+      "priceText": "1,11 €",
+      "unit": "(kg = 9.65)",
+      "discount": "0,88 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Chips",
+      "product": "Chipsfrisch",
+      "brand": "funny-frisch",
+      "retailer": "ALDI Nord",
+      "price": 1.19,
+      "priceText": "1,19 €",
+      "unit": "(kg = 7.93)",
+      "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2450,18 +2462,6 @@
       "price": 1.19,
       "priceText": "1,19 €",
       "unit": "1 kg = 6.80",
-      "discount": "0,30 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Chips",
-      "product": "Tortilla Chips",
-      "brand": "SNACK DAY",
-      "retailer": "Lidl",
-      "price": 1.19,
-      "priceText": "1,19 €",
-      "unit": "1 kg = 3.97",
       "discount": "0,30 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2756,6 +2756,18 @@
     },
     {
       "query": "Toilettenpapier",
+      "product": "Toilettenpapier Wichtel",
+      "brand": "Favora",
+      "retailer": "budni",
+      "price": 8.88,
+      "priceText": "8,88 €",
+      "unit": "",
+      "discount": "2,10 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toilettenpapier",
       "product": "Toilettenpapier",
       "brand": "Samelle",
       "retailer": "Netto mit dem Scottie",
@@ -2780,25 +2792,13 @@
     },
     {
       "query": "Toilettenpapier",
-      "product": "Toilettenpapier soft XXL",
-      "brand": "FLORALYS",
-      "retailer": "Lidl",
-      "price": 6.79,
-      "priceText": "6,79 €",
+      "product": "Feuchtes Toilettenpapier",
+      "brand": "Tempo",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
       "unit": "",
-      "discount": "0,16 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Toilettenpapier",
-      "product": "Toilettenpapier supersoft",
-      "brand": "Floralys",
-      "retailer": "Lidl",
-      "price": 4.35,
-      "priceText": "4,35 €",
-      "unit": "",
-      "discount": "0,10 €",
+      "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2981,6 +2981,30 @@
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
+    },
+    {
+      "query": "Duschgel",
+      "product": "Duschgel",
+      "brand": "Palmolive",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 l = 3,96",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
+      "product": "Fine Fragrance Duschgel",
+      "brand": "Axe",
+      "retailer": "budni",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "1 l = 13,29",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
     },
     {
       "query": "Duschgel",
@@ -3296,30 +3320,6 @@
     },
     {
       "query": "Nutella",
-      "product": "NUTELLA",
-      "brand": "Ohne Marke",
-      "retailer": "Lidl",
-      "price": 5.79,
-      "priceText": "5,79 €",
-      "unit": "1 kg = 7.02",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Nutella",
-      "product": "Nuss-Nugat-Creme",
-      "brand": "Nutella",
-      "retailer": "Kaufland",
-      "price": 4.99,
-      "priceText": "4,99 €",
-      "unit": "",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Nutella",
       "product": "Cacao Intense",
       "brand": "Nutella",
       "retailer": "Lidl",
@@ -3338,6 +3338,30 @@
       "price": 9.99,
       "priceText": "9,99 €",
       "unit": "1 kg = 47.80",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "Nuss-Nugat-Creme",
+      "brand": "Nutella",
+      "retailer": "Kaufland",
+      "price": 4.99,
+      "priceText": "4,99 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "NUTELLA",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 5.79,
+      "priceText": "5,79 €",
+      "unit": "1 kg = 7.02",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3439,18 +3463,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Mayonnaise",
-      "product": "Mayonnaise die Cremige",
-      "brand": "Hellmann's",
-      "retailer": "Kaufland",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "(1 l = 5.96)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Salz",
       "product": "Tafelschokolade Honig-Salz-Mandel",
       "brand": "Fin Carré",
@@ -3494,18 +3506,6 @@
       "price": 0.79,
       "priceText": "0,79 €",
       "unit": "1 kg = ab 13.39",
-      "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Suppen",
-      "product": "Bio-Suppe",
-      "brand": "LITTLE LUNCH",
-      "retailer": "Kaufland",
-      "price": 2.49,
-      "priceText": "2,49 €",
-      "unit": "(1 l = 7.12)",
       "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3819,6 +3819,18 @@
       "priceText": "0,79 €",
       "unit": "(1 kg = 13.62)",
       "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Proteinprodukte",
+      "product": "Proteinpulver",
+      "brand": "All Stars",
+      "retailer": "budni",
+      "price": 12.99,
+      "priceText": "12,99 €",
+      "unit": "1 kg = 43,30",
+      "discount": "2,00 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
