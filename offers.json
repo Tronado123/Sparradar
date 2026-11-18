@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-17T13:26:04.773Z",
-  "count": 308,
+  "updatedAt": "2026-11-18T13:08:43.202Z",
+  "count": 313,
   "categories": 114,
-  "localPages": 32,
-  "fallbackPages": 35,
+  "localPages": 33,
+  "fallbackPages": 36,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -452,24 +452,24 @@
     },
     {
       "query": "Joghurt",
-      "product": "Der Große Joghurt",
-      "brand": "BAUER",
-      "retailer": "Lidl",
-      "price": 0.39,
-      "priceText": "0,39 €",
-      "unit": "1 kg = 1.56",
-      "discount": "0,60 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Joghurt",
       "product": "Herzstücke Erdbeer Joghurt",
       "brand": "EDEKA",
       "retailer": "E center",
       "price": 0.89,
       "priceText": "0,89 €",
       "unit": "(1 kg = € 9.89)",
+      "discount": "0,60 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Joghurt",
+      "product": "Der Große Joghurt",
+      "brand": "BAUER",
+      "retailer": "Lidl",
+      "price": 0.39,
+      "priceText": "0,39 €",
+      "unit": "1 kg = 1.56",
       "discount": "0,60 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -656,24 +656,24 @@
     },
     {
       "query": "Mehl",
-      "product": "Weizenmehl",
-      "brand": "Back Family",
-      "retailer": "ALDI Nord",
-      "price": 0.59,
-      "priceText": "0,59 €",
-      "unit": "(kg = 0.59)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Mehl",
       "product": "Weizenmehl Type 405",
       "brand": "ÄHRE",
       "retailer": "Penny",
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "1 kg = 0.65",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Mehl",
+      "product": "Weizenmehl",
+      "brand": "Back Family",
+      "retailer": "ALDI Nord",
+      "price": 0.59,
+      "priceText": "0,59 €",
+      "unit": "(kg = 0.59)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -1484,6 +1484,18 @@
     },
     {
       "query": "Äpfel",
+      "product": "Knusper-Früchte Erdbeer & Apfel",
+      "brand": "Fruchtbar",
+      "retailer": "budni",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "1 kg = 99,33",
+      "discount": "0,50 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Äpfel",
       "product": "Tafeläpfel „Gala“",
       "brand": "GUT&GÜNSTIG",
       "retailer": "E center",
@@ -1531,14 +1543,14 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Äpfel",
-      "product": "Frischer Direktsaft Apfel",
-      "brand": "Solevita",
-      "retailer": "Lidl",
-      "price": 1.79,
-      "priceText": "1,79 €",
+      "query": "Orangen",
+      "product": "Orange Eau de Toilette",
+      "brand": "Hugo Boss",
+      "retailer": "budni",
+      "price": 34.99,
+      "priceText": "34,99 €",
       "unit": "",
-      "discount": "0,20 €",
+      "discount": "73,01 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -1651,18 +1663,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Orangen",
-      "product": "Orangen",
-      "brand": "REWE Bio",
-      "retailer": "REWE",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Cola",
       "product": "Popcornmaker",
       "brand": "COCA COLA",
@@ -1712,24 +1712,24 @@
     },
     {
       "query": "Cola",
-      "product": "Coca-Cola",
-      "brand": "Ohne Marke",
-      "retailer": "EDEKA",
-      "price": 11.99,
-      "priceText": "11,99 €",
-      "unit": "(1 l = € 1.00)",
-      "discount": "5,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Cola",
       "product": "Original Taste",
       "brand": "Coca-Cola",
       "retailer": "EDEKA",
       "price": 11.99,
       "priceText": "11,99 €",
       "unit": "",
+      "discount": "5,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Cola",
+      "product": "Coca-Cola",
+      "brand": "Ohne Marke",
+      "retailer": "EDEKA",
+      "price": 11.99,
+      "priceText": "11,99 €",
+      "unit": "(1 l = € 1.00)",
       "discount": "5,00 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2384,15 +2384,15 @@
     },
     {
       "query": "Rindfleisch",
-      "product": "Dreistern Rindfleisch",
-      "brand": "Neuruppin",
-      "retailer": "E center",
-      "price": 3.79,
-      "priceText": "3,79 €",
-      "unit": "1kg = 9,48",
-      "discount": "0,60 €",
+      "product": "Rindfleischpaket",
+      "brand": "Ohne Marke",
+      "retailer": "Penny",
+      "price": 8.99,
+      "priceText": "8,99 €",
+      "unit": "",
+      "discount": "",
       "source": "kaufDA",
-      "scope": "Deutschland"
+      "scope": "Marl"
     },
     {
       "query": "Wurst",
@@ -2528,6 +2528,18 @@
     },
     {
       "query": "Toilettenpapier",
+      "product": "Sanft & Sicher Toilettenpapier",
+      "brand": "Hakle",
+      "retailer": "budni",
+      "price": 3.49,
+      "priceText": "3,49 €",
+      "unit": "",
+      "discount": "0,90 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toilettenpapier",
       "product": "Feuchtes Toilettenpapier",
       "brand": "Tempo",
       "retailer": "budni",
@@ -2535,6 +2547,18 @@
       "priceText": "0,99 €",
       "unit": "",
       "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toilettenpapier",
+      "product": "Feuchtes Toilettenpapier",
+      "brand": "Cottonelle",
+      "retailer": "budni",
+      "price": 1.11,
+      "priceText": "1,11 €",
+      "unit": "",
+      "discount": "0,68 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2559,18 +2583,6 @@
       "priceText": "6,79 €",
       "unit": "",
       "discount": "0,16 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Toilettenpapier",
-      "product": "Toilettenpapier supersoft",
-      "brand": "Floralys",
-      "retailer": "Lidl",
-      "price": 4.35,
-      "priceText": "4,35 €",
-      "unit": "",
-      "discount": "0,10 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2607,6 +2619,18 @@
       "priceText": "1,49 €",
       "unit": "€ 1.99/1 l",
       "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Glasreiniger",
+      "product": "Glasreiniger 3-fach Aktiv",
+      "brand": "Ajax",
+      "retailer": "budni",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "1 l = 2,98",
+      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2804,12 +2828,36 @@
     },
     {
       "query": "Duschgel",
+      "product": "Advanced Care Duschgel",
+      "brand": "Dove",
+      "retailer": "budni",
+      "price": 2.79,
+      "priceText": "2,79 €",
+      "unit": "1 l = 12,40",
+      "discount": "0,90 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
       "product": "Duschgel",
       "brand": "Palmolive",
       "retailer": "budni",
       "price": 0.99,
       "priceText": "0,99 €",
       "unit": "1 l = 3,96",
+      "discount": "0,80 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Duschgel",
+      "product": "Duschgel",
+      "brand": "Duschdas",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 l = 4,40",
       "discount": "0,80 €",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -2827,14 +2875,14 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Duschgel",
-      "product": "Fine Fragrance Duschgel",
-      "brand": "Axe",
+      "query": "Gesichtscreme",
+      "product": "HydroCare oder Sensitive Gesichtscreme",
+      "brand": "Nivea Men",
       "retailer": "budni",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "1 l = 13,29",
-      "discount": "0,50 €",
+      "price": 7.99,
+      "priceText": "7,99 €",
+      "unit": "1 l = 106,53",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3104,12 +3152,12 @@
     },
     {
       "query": "Honig",
-      "product": "Kretischer Honig",
-      "brand": "Lyttos",
-      "retailer": "ALDI Nord",
-      "price": 4.29,
-      "priceText": "4,29 €",
-      "unit": "(kg = 9.53)",
+      "product": "Blütenhonig",
+      "brand": "HIMSTEDT",
+      "retailer": "Penny",
+      "price": 4.49,
+      "priceText": "4,49 €",
+      "unit": "(1 kg = 8.98)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -3355,6 +3403,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Suppen",
+      "product": "Suppe oder Eintopf",
+      "brand": "ALMTALER",
+      "retailer": "Penny",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "1 kg = 3.11",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Fertiggerichte",
       "product": "High Protein-Hähnchen-Fertiggerichte",
       "brand": "Frosta",
@@ -3560,6 +3620,18 @@
     },
     {
       "query": "Proteinprodukte",
+      "product": "High Proteinriegel",
+      "brand": "Premier Protein",
+      "retailer": "budni",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "1 kg = 24,75",
+      "discount": "0,20 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Proteinprodukte",
       "product": "High Protein Pouch",
       "brand": "Gutes Land",
       "retailer": "Netto Marken-Discount",
@@ -3663,18 +3735,6 @@
       "priceText": "1,99 €",
       "unit": "",
       "discount": "0,69 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Batterien",
-      "product": "Brave Batterien",
-      "brand": "Ohne Marke",
-      "retailer": "Thomas Philipps",
-      "price": 3.33,
-      "priceText": "3,33 €",
-      "unit": "",
-      "discount": "0,65 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
