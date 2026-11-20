@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T13:06:49.697Z",
-  "count": 334,
+  "updatedAt": "2026-11-20T12:59:37.919Z",
+  "count": 342,
   "categories": 114,
   "localPages": 32,
-  "fallbackPages": 38,
+  "fallbackPages": 40,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -56,6 +56,18 @@
     },
     {
       "query": "Ketchup",
+      "product": "Curry-Gewürzketchup oder Tomato Ketchup",
+      "brand": "Heinz",
+      "retailer": "Penny",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "(1 l = 4.48)",
+      "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
       "product": "Fleischkäse im Brötchen mit Senf oder Ketchup",
       "brand": "Ohne Marke",
       "retailer": "EDEKA",
@@ -87,6 +99,18 @@
       "priceText": "21,99 €",
       "unit": "1 WL=-.22/-.20/-.27",
       "discount": "8,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Waschmittel",
+      "product": "Waschmittel",
+      "brand": "Sunil",
+      "retailer": "Netto Marken-Discount",
+      "price": 8.99,
+      "priceText": "8,99 €",
+      "unit": "(0.09 – 0.09 / WL)",
+      "discount": "6,50 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -139,18 +163,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Waschmittel",
-      "product": "Waschmittel",
-      "brand": "Perwoll",
-      "retailer": "Thomas Philipps",
-      "price": 4.44,
-      "priceText": "4,44 €",
-      "unit": "(1 WL = -,16)",
-      "discount": "1,11 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Kaffee",
       "product": "Kaffee-/Espresso-Vollautomat",
       "brand": "Krups",
@@ -183,6 +195,18 @@
       "priceText": "222,00 €",
       "unit": "",
       "discount": "57,99 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kaffee",
+      "product": "Espresso Crema e Aroma",
+      "brand": "Lavazza",
+      "retailer": "Penny",
+      "price": 12.99,
+      "priceText": "12,99 €",
+      "unit": "",
+      "discount": "9,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -221,6 +245,18 @@
       "discount": "3,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
+    },
+    {
+      "query": "Milch",
+      "product": "H-Vollmilch",
+      "brand": "Gutes Land",
+      "retailer": "Netto Marken-Discount",
+      "price": 8.88,
+      "priceText": "8,88 €",
+      "unit": "(0.74 / l)",
+      "discount": "2,52 €",
+      "source": "kaufDA",
+      "scope": "Marl"
     },
     {
       "query": "Milch",
@@ -295,20 +331,20 @@
       "scope": "Marl"
     },
     {
-      "query": "Milch",
-      "product": "Reine Buttermilch",
-      "brand": "MÜLLER",
-      "retailer": "Kaufland",
-      "price": 0.59,
-      "priceText": "0,59 €",
-      "unit": "(1 kg = 1.18)",
-      "discount": "0,40 €",
+      "query": "Hafermilch",
+      "product": "Barista oder Haferdrink",
+      "brand": "Alpro",
+      "retailer": "Penny",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "",
+      "discount": "1,00 €",
       "source": "kaufDA",
-      "scope": "Marl"
+      "scope": "Deutschland"
     },
     {
       "query": "Butter",
-      "product": "Butter oder Streichzart",
+      "product": "Butter",
       "brand": "Weihenstephan",
       "retailer": "Netto Marken-Discount",
       "price": 0.99,
@@ -500,6 +536,18 @@
     },
     {
       "query": "Quark",
+      "product": "Gewürzquark",
+      "brand": "Milram",
+      "retailer": "Netto Marken-Discount",
+      "price": 1.99,
+      "priceText": "1,99 €",
+      "unit": "(5.25 / kg)",
+      "discount": "0,96 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Quark",
       "product": "Quark-Genuss",
       "brand": "Exquisa",
       "retailer": "Netto Marken-Discount",
@@ -607,16 +655,16 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Quark",
-      "product": "Speisequark",
-      "brand": "Hemme Milch",
-      "retailer": "E center",
-      "price": 1.19,
-      "priceText": "1,19 €",
-      "unit": "1kg = 4,76",
+      "query": "Eier",
+      "product": "Bio Eier",
+      "brand": "BioBio",
+      "retailer": "Netto Marken-Discount",
+      "price": 3.99,
+      "priceText": "3,99 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
-      "scope": "Deutschland"
+      "scope": "Marl"
     },
     {
       "query": "Eier",
@@ -661,7 +709,7 @@
       "retailer": "Netto Marken-Discount",
       "price": 2.22,
       "priceText": "2,22 €",
-      "unit": "(1 kg = 5,55)",
+      "unit": "(4.53 – 5.55 / kg)",
       "discount": "1,27 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -801,22 +849,22 @@
     {
       "query": "Mehl",
       "product": "Weizenmehl",
-      "brand": "Back Family",
-      "retailer": "ALDI Nord",
-      "price": 0.59,
-      "priceText": "0,59 €",
-      "unit": "(kg = 0.59)",
+      "brand": "EDEKA Bio",
+      "retailer": "E center",
+      "price": 0.85,
+      "priceText": "0,85 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
     {
       "query": "Mehl",
-      "product": "Weizenmehl",
-      "brand": "EDEKA Bio",
+      "product": "Konditor-Weizenmehl",
+      "brand": "EDEKA",
       "retailer": "E center",
-      "price": 0.85,
-      "priceText": "0,85 €",
+      "price": 1.49,
+      "priceText": "1,49 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
@@ -836,6 +884,18 @@
     },
     {
       "query": "Zucker",
+      "product": "Energy Drink Zero Zucker",
+      "brand": "Monster",
+      "retailer": "Netto Marken-Discount",
+      "price": 0.88,
+      "priceText": "0,88 €",
+      "unit": "(1.76 / l)",
+      "discount": "0,71 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Zucker",
       "product": "Bourbon Vanillezucker",
       "brand": "Alnatura",
       "retailer": "EDEKA",
@@ -855,18 +915,6 @@
       "priceText": "1,49 €",
       "unit": "(1kg = € 62.08)",
       "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Zucker",
-      "product": "Bio Rübenzucker",
-      "brand": "Alnatura",
-      "retailer": "EDEKA",
-      "price": 1.79,
-      "priceText": "1,79 €",
-      "unit": "(1 kg = € 3.58)",
-      "discount": "0,20 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -1592,12 +1640,12 @@
     },
     {
       "query": "Bananen",
-      "product": "Frucht & Getreide Apfel Banane mit Zwieback, ab dem 5. Monat",
-      "brand": "Bebivita",
+      "product": "Quetschie Erdbeere, Banane & Hafer ab 6 Monaten",
+      "brand": "FRUCHTBAR",
       "retailer": "dm-drogerie markt",
-      "price": 1.35,
-      "priceText": "1,35 €",
-      "unit": "EUR 5,4 / 1 kg",
+      "price": 0.85,
+      "priceText": "0,85 €",
+      "unit": "EUR 8,5 / 1 kg",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1767,6 +1815,18 @@
       "priceText": "5,99 €",
       "unit": "",
       "discount": "3,71 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Orangen",
+      "product": "Orange Spritz Aperitivo",
+      "brand": "MIONETTO",
+      "retailer": "Penny",
+      "price": 6.49,
+      "priceText": "6,49 €",
+      "unit": "(1 l = 8.65)",
+      "discount": "3,50 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -1963,6 +2023,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Limonade",
+      "product": "Coca-cola, Fanta oder Sprite",
+      "brand": "Ohne Marke",
+      "retailer": "Penny",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 l = 0.79)",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Mineralwasser",
       "product": "Mineralwasser",
       "brand": "Gerolsteiner",
@@ -2031,18 +2103,6 @@
       "priceText": "1,69 €",
       "unit": "",
       "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Saft",
-      "product": "Frischer Orangensaft",
-      "brand": "Solevita",
-      "retailer": "Lidl",
-      "price": 2.59,
-      "priceText": "2,59 €",
-      "unit": "",
-      "discount": "0,40 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2253,11 +2313,11 @@
     {
       "query": "Chips",
       "product": "Chips",
-      "brand": "Lay's",
-      "retailer": "EDEKA",
+      "brand": "funny-frisch",
+      "retailer": "Netto Marken-Discount",
       "price": 0.99,
       "priceText": "0,99 €",
-      "unit": "(1 kg = € 6.60)",
+      "unit": "(6.34 – 10.09 / kg)",
       "discount": "1,00 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2266,7 +2326,7 @@
       "query": "Chips",
       "product": "Chips",
       "brand": "Lay's",
-      "retailer": "E center",
+      "retailer": "EDEKA",
       "price": 0.99,
       "priceText": "0,99 €",
       "unit": "(1 kg = € 6.60)",
@@ -2295,6 +2355,18 @@
       "priceText": "1,24 €",
       "unit": "(1 kg = € 6.20)",
       "discount": "1,25 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kekse",
+      "product": "Kekse",
+      "brand": "Leibniz",
+      "retailer": "Netto Marken-Discount",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "",
+      "discount": "1,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2391,18 +2463,6 @@
       "priceText": "1,79 €",
       "unit": "1 l = 2.24/2.11/1.99",
       "discount": "2,20 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Eis",
-      "product": "Stieleis",
-      "brand": "NUII",
-      "retailer": "ALDI Nord",
-      "price": 1.99,
-      "priceText": "1,99 €",
-      "unit": "(Liter = 7.37)",
-      "discount": "2,00 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2600,24 +2660,24 @@
     },
     {
       "query": "Wurst",
-      "product": "Fleischwurst",
-      "brand": "Gutfried",
-      "retailer": "ALDI Nord",
-      "price": 2.79,
-      "priceText": "2,79 €",
-      "unit": "(kg = 6.98)",
-      "discount": "0,90 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Wurst",
       "product": "Geflügel-Fleischwurst",
       "brand": "GUTFRIED",
       "retailer": "Kaufland",
       "price": 2.79,
       "priceText": "2,79 €",
       "unit": "(1 kg = 6.98 - 7.98)",
+      "discount": "0,90 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Wurst",
+      "product": "Fleischwurst",
+      "brand": "Gutfried",
+      "retailer": "ALDI Nord",
+      "price": 2.79,
+      "priceText": "2,79 €",
+      "unit": "(kg = 6.98)",
       "discount": "0,90 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2631,30 +2691,6 @@
       "priceText": "0,99 €",
       "unit": "1 kg = 7,92",
       "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Wurst",
-      "product": "Salami-Sortiment",
-      "brand": "Marken-Metzger",
-      "retailer": "Netto Marken-Discount",
-      "price": 1.39,
-      "priceText": "1,39 €",
-      "unit": "(13.90 / kg)",
-      "discount": "0,40 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Wurst",
-      "product": "Geflügelfleischwurst",
-      "brand": "Hofmaier",
-      "retailer": "Netto Marken-Discount",
-      "price": 2.29,
-      "priceText": "2,29 €",
-      "unit": "(4.58 / kg)",
-      "discount": "0,40 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2779,6 +2815,30 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Allzweckreiniger",
+      "product": "Allzweckreiniger Frischeduft",
+      "brand": "AJAX",
+      "retailer": "Kaufland",
+      "price": 1.49,
+      "priceText": "1,49 €",
+      "unit": "",
+      "discount": "0,26 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Allzweckreiniger",
+      "product": "Allzweckreiniger",
+      "brand": "Priva",
+      "retailer": "Netto Marken-Discount",
+      "price": 1.39,
+      "priceText": "1,39 €",
+      "unit": "(0.93 / l)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Glasreiniger",
       "product": "Glasreiniger 3-fach Aktiv",
       "brand": "Ajax",
@@ -2847,6 +2907,18 @@
       "priceText": "4,99 €",
       "unit": "1 l = 22.18",
       "discount": "2,30 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Zahnpasta",
+      "product": "Zahnpasta",
+      "brand": "ODOL-MED3",
+      "retailer": "Penny",
+      "price": 3.75,
+      "priceText": "3,75 €",
+      "unit": "(1 l = 12.50)",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -2984,12 +3056,12 @@
     },
     {
       "query": "Shampoo",
-      "product": "7-Kräuter Shampoo",
-      "brand": "jolea",
-      "retailer": "E center",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 L = €1.98)",
+      "product": "Shampoo",
+      "brand": "Head & Shoulders",
+      "retailer": "Kaufland",
+      "price": 5.29,
+      "priceText": "5,29 €",
+      "unit": "(1 l = 10.58)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3331,6 +3403,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Honig",
+      "product": "Fenchelhonig",
+      "brand": "Curafit plus",
+      "retailer": "Netto Marken-Discount",
+      "price": 2.49,
+      "priceText": "2,49 €",
+      "unit": "(7.11 / kg)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Marmelade",
       "product": "Konfitüre, Marmelade, Gelee",
       "brand": "Bonne Maman",
@@ -3375,6 +3459,18 @@
       "priceText": "2,99 €",
       "unit": "(5.98 – 8.54 / kg)",
       "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "Cacao intense",
+      "brand": "Nutella",
+      "retailer": "Penny",
+      "price": 3.99,
+      "priceText": "3,99 €",
+      "unit": "(1 kg = 11.40)",
+      "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -3499,18 +3595,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Senf",
-      "product": "Brotaufstrich, Streichcreme Senf & Dill",
-      "brand": "dmBio",
-      "retailer": "dm-drogerie markt",
-      "price": 1.25,
-      "priceText": "1,25 €",
-      "unit": "EUR 6,94 / 1 kg",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Mayonnaise",
       "product": "Mayonnaise, Salatcreme oder Remoulade",
       "brand": "Kunella Feinkost",
@@ -3536,13 +3620,13 @@
     },
     {
       "query": "Essig",
-      "product": "Tafelessig hell",
-      "brand": "K-CLASSIC",
-      "retailer": "Kaufland",
-      "price": 0.49,
-      "priceText": "0,49 €",
-      "unit": "",
-      "discount": "0,10 €",
+      "product": "Fruchtessig",
+      "brand": "Kühne",
+      "retailer": "Penny",
+      "price": 1.79,
+      "priceText": "1,79 €",
+      "unit": "(1 l = 7.16)",
+      "discount": "0,40 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3711,6 +3795,18 @@
       "priceText": "1,99 €",
       "unit": "(1 kg = € 3.98)",
       "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Sahne",
+      "product": "Sahne-heringsfilets XXL",
+      "brand": "Nadler",
+      "retailer": "Netto Marken-Discount",
+      "price": 2.99,
+      "priceText": "2,99 €",
+      "unit": "(5.98 / kg)",
+      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
