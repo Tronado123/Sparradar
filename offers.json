@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-20T12:59:37.919Z",
-  "count": 342,
+  "updatedAt": "2026-11-21T12:44:38.315Z",
+  "count": 345,
   "categories": 114,
   "localPages": 32,
-  "fallbackPages": 40,
+  "fallbackPages": 41,
   "location": "Marl, Nordrhein-Westfalen",
   "offers": [
     {
@@ -63,6 +63,18 @@
       "priceText": "1,79 €",
       "unit": "(1 l = 4.48)",
       "discount": "1,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Ketchup",
+      "product": "Gewürz-Ketchup",
+      "brand": "Hela",
+      "retailer": "Thomas Philipps",
+      "price": 1.99,
+      "priceText": "1,99 €",
+      "unit": "(1 L = 2,49)",
+      "discount": "0,99 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -247,6 +259,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Filterkaffee",
+      "product": "Krönung Filterkaffee",
+      "brand": "Jacobs",
+      "retailer": "Rossmann",
+      "price": 4.95,
+      "priceText": "4,95 €",
+      "unit": "1 kg = 9.90",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Milch",
       "product": "H-Vollmilch",
       "brand": "Gutes Land",
@@ -303,30 +327,6 @@
       "priceText": "1,59 €",
       "unit": "",
       "discount": "0,70 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Milch",
-      "product": "Haltbare Milch",
-      "brand": "Weihenstephan",
-      "retailer": "Penny",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "",
-      "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Milch",
-      "product": "Haltbare Milch",
-      "brand": "BÄREN-MARKE",
-      "retailer": "Lidl",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "",
-      "discount": "0,50 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -404,24 +404,24 @@
     },
     {
       "query": "Butter",
-      "product": "Butter",
-      "brand": "Landliebe",
-      "retailer": "EDEKA",
-      "price": 1.29,
-      "priceText": "1,29 €",
-      "unit": "(1 kg = € 5.16)",
-      "discount": "1,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Butter",
       "product": "Joghurt-Butter",
       "brand": "MEGGLE",
       "retailer": "Kaufland",
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "(1 kg = 5.16)",
+      "discount": "1,50 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Butter",
+      "product": "Butter",
+      "brand": "Landliebe",
+      "retailer": "EDEKA",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(1 kg = € 5.16)",
       "discount": "1,50 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -704,6 +704,18 @@
     },
     {
       "query": "Brot",
+      "product": "Unsere Goldstücke Roggen-Brötchen",
+      "brand": "COPPENRATH & WIESE",
+      "retailer": "Penny",
+      "price": 1.99,
+      "priceText": "1,99 €",
+      "unit": "(1 kg = 4.06/4.74)",
+      "discount": "1,30 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Brot",
       "product": "Dinkel-Brötchen",
       "brand": "Coppenrath & Wiese",
       "retailer": "Netto Marken-Discount",
@@ -735,6 +747,18 @@
       "priceText": "17,99 €",
       "unit": "",
       "discount": "22,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Toast",
+      "product": "Toasty Treatz",
+      "brand": "Ohne Marke",
+      "retailer": "Rossmann",
+      "price": 11.99,
+      "priceText": "11,99 €",
+      "unit": "",
+      "discount": "3,00 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -859,18 +883,6 @@
       "scope": "Deutschland"
     },
     {
-      "query": "Mehl",
-      "product": "Konditor-Weizenmehl",
-      "brand": "EDEKA",
-      "retailer": "E center",
-      "price": 1.49,
-      "priceText": "1,49 €",
-      "unit": "",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
       "query": "Zucker",
       "product": "Rübenzucker",
       "brand": "Diamant",
@@ -927,6 +939,18 @@
       "priceText": "0,69 €",
       "unit": "(11.50 / kg)",
       "discount": "6,21 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nudeln",
+      "product": "Nudeln",
+      "brand": "Delverde",
+      "retailer": "Thomas Philipps",
+      "price": 0.88,
+      "priceText": "0,88 €",
+      "unit": "(1 kg = 1,76)",
+      "discount": "0,81 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -1148,12 +1172,12 @@
     },
     {
       "query": "Kartoffeln",
-      "product": "Deutsche Bio-Kartoffeln",
-      "brand": "NATURGUT",
-      "retailer": "Penny",
-      "price": 1.79,
-      "priceText": "1,79 €",
-      "unit": "(1 kg = 1.19)",
+      "product": "Speisekartoffeln",
+      "brand": "Dtsch.",
+      "retailer": "Kaufland",
+      "price": 4.99,
+      "priceText": "4,99 €",
+      "unit": "(1 kg = 0.67)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1166,6 +1190,18 @@
       "price": 1.99,
       "priceText": "1,99 €",
       "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kartoffeln",
+      "product": "Speisekartoffeln festkochend",
+      "brand": "Ohne Marke",
+      "retailer": "EDEKA",
+      "price": 2.22,
+      "priceText": "2,22 €",
+      "unit": "(1 kg = € 1.48)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -1387,6 +1423,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Gurken",
+      "product": "Gurken, lose",
+      "brand": "Ohne Marke",
+      "retailer": "Lidl",
+      "price": 0.69,
+      "priceText": "0,69 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Paprika",
       "product": "Paprika, rot",
       "brand": "Ohne Marke",
@@ -1496,11 +1544,11 @@
     },
     {
       "query": "Zwiebeln",
-      "product": "Bio Zwiebel",
+      "product": "Lauchzwiebeln",
       "brand": "Ohne Marke",
-      "retailer": "Netto Marken-Discount",
-      "price": 1.79,
-      "priceText": "1,79 €",
+      "retailer": "EDEKA",
+      "price": 0.49,
+      "priceText": "0,49 €",
       "unit": "",
       "discount": "0,20 €",
       "source": "kaufDA",
@@ -1508,11 +1556,11 @@
     },
     {
       "query": "Zwiebeln",
-      "product": "Lauchzwiebeln",
+      "product": "Bio Zwiebel",
       "brand": "Ohne Marke",
-      "retailer": "EDEKA",
-      "price": 0.49,
-      "priceText": "0,49 €",
+      "retailer": "Netto Marken-Discount",
+      "price": 1.79,
+      "priceText": "1,79 €",
       "unit": "",
       "discount": "0,20 €",
       "source": "kaufDA",
@@ -1639,18 +1687,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Bananen",
-      "product": "Quetschie Erdbeere, Banane & Hafer ab 6 Monaten",
-      "brand": "FRUCHTBAR",
-      "retailer": "dm-drogerie markt",
-      "price": 0.85,
-      "priceText": "0,85 €",
-      "unit": "EUR 8,5 / 1 kg",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Äpfel",
       "product": "Rote Äpfel",
       "brand": "Ohne Marke",
@@ -1767,18 +1803,6 @@
       "priceText": "2,99 €",
       "unit": "",
       "discount": "0,50 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Äpfel",
-      "product": "Pink Lady Äpfel",
-      "brand": "Ohne Marke",
-      "retailer": "Netto Marken-Discount",
-      "price": 2.69,
-      "priceText": "2,69 €",
-      "unit": "",
-      "discount": "0,30 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -1976,24 +2000,24 @@
     },
     {
       "query": "Cola",
-      "product": "Coca-Cola",
-      "brand": "Ohne Marke",
-      "retailer": "EDEKA",
-      "price": 11.99,
-      "priceText": "11,99 €",
-      "unit": "(1 l = € 1.00)",
-      "discount": "5,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Cola",
       "product": "Original Taste",
       "brand": "Coca-Cola",
       "retailer": "EDEKA",
       "price": 11.99,
       "priceText": "11,99 €",
       "unit": "",
+      "discount": "5,00 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Cola",
+      "product": "Coca-Cola",
+      "brand": "Ohne Marke",
+      "retailer": "EDEKA",
+      "price": 11.99,
+      "priceText": "11,99 €",
+      "unit": "(1 l = € 1.00)",
       "discount": "5,00 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2167,6 +2191,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Wein",
+      "product": "Riserva DOCG, Rotwein, trocken",
+      "brand": "Barolo",
+      "retailer": "Lidl",
+      "price": 14.99,
+      "priceText": "14,99 €",
+      "unit": "1 l = 19.99",
+      "discount": "5,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Sekt",
       "product": "Sekt",
       "brand": "Freixenet",
@@ -2239,38 +2275,14 @@
       "scope": "Marl"
     },
     {
-      "query": "Schokolade",
-      "product": "Schokolade",
-      "brand": "Milka",
-      "retailer": "Kaufland",
-      "price": 0.88,
-      "priceText": "0,88 €",
-      "unit": "1 kg = 8.80 - 10.36",
-      "discount": "1,11 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Schokolade",
-      "product": "Tafel­schokolade",
-      "brand": "Milka",
-      "retailer": "ALDI Nord",
-      "price": 0.95,
-      "priceText": "0,95 €",
-      "unit": "(kg = 10.56)",
-      "discount": "1,04 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Schokolade",
-      "product": "Schokolade",
-      "brand": "Milka",
-      "retailer": "Netto Marken-Discount",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(9.- – 11.65 / kg)",
-      "discount": "1,00 €",
+      "query": "Chips",
+      "product": "Choco Crossies oder Choclait Chips",
+      "brand": "Nestlé",
+      "retailer": "Penny",
+      "price": 1.99,
+      "priceText": "1,99 €",
+      "unit": "1 kg = 13.27/17.30",
+      "discount": "1,80 €",
       "source": "kaufDA",
       "scope": "Marl"
     },
@@ -2323,18 +2335,6 @@
       "scope": "Marl"
     },
     {
-      "query": "Chips",
-      "product": "Chips",
-      "brand": "Lay's",
-      "retailer": "EDEKA",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 kg = € 6.60)",
-      "discount": "1,00 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
       "query": "Kekse",
       "product": "Hausgebäck",
       "brand": "Coppenrath",
@@ -2372,24 +2372,24 @@
     },
     {
       "query": "Kekse",
-      "product": "Doppelkekse Original oder Sticks",
-      "brand": "OREO",
-      "retailer": "Penny",
-      "price": 1.29,
-      "priceText": "1,29 €",
-      "unit": "(1 kg = 7.33/17.20)",
-      "discount": "0,70 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Kekse",
       "product": "Butterkekse",
       "brand": "Leibniz",
       "retailer": "EDEKA",
       "price": 1.29,
       "priceText": "1,29 €",
       "unit": "(1 kg = € 6.45 / € 8.60)",
+      "discount": "0,70 €",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Kekse",
+      "product": "Doppelkekse Original oder Sticks",
+      "brand": "OREO",
+      "retailer": "Penny",
+      "price": 1.29,
+      "priceText": "1,29 €",
+      "unit": "(1 kg = 7.33/17.20)",
       "discount": "0,70 €",
       "source": "kaufDA",
       "scope": "Marl"
@@ -2540,18 +2540,6 @@
     },
     {
       "query": "Pizza",
-      "product": "Steinoffenpizza",
-      "brand": "FREDA",
-      "retailer": "Kaufland",
-      "price": 4.99,
-      "priceText": "4,99 €",
-      "unit": "(1 kg = 10.97 - 12.48)",
-      "discount": "1,50 €",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Pizza",
       "product": "Suprema Pizza",
       "brand": "Dr. Oetker",
       "retailer": "EDEKA",
@@ -2561,6 +2549,18 @@
       "discount": "1,50 €",
       "source": "kaufDA",
       "scope": "Marl"
+    },
+    {
+      "query": "Pommes",
+      "product": "Pommes-Truck",
+      "brand": "LEGO",
+      "retailer": "Rossmann",
+      "price": 14.99,
+      "priceText": "14,99 €",
+      "unit": "",
+      "discount": "5,00 €",
+      "source": "kaufDA",
+      "scope": "Deutschland"
     },
     {
       "query": "Hackfleisch",
@@ -3032,18 +3032,6 @@
     },
     {
       "query": "Shampoo",
-      "product": "7-Kräuter Shampoo",
-      "brand": "jolea",
-      "retailer": "EDEKA",
-      "price": 0.99,
-      "priceText": "0,99 €",
-      "unit": "(1 L = €1.98)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Shampoo",
       "product": "2 in 1 Shampoo und Duschgel",
       "brand": "Ohne Marke",
       "retailer": "Thomas Philipps",
@@ -3056,12 +3044,24 @@
     },
     {
       "query": "Shampoo",
-      "product": "Shampoo",
+      "product": "7-Kräuter Shampoo",
+      "brand": "jolea",
+      "retailer": "EDEKA",
+      "price": 0.99,
+      "priceText": "0,99 €",
+      "unit": "(1 L = €1.98)",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Shampoo",
+      "product": "Anti-Schuppen-Shampoo",
       "brand": "Head & Shoulders",
-      "retailer": "Kaufland",
-      "price": 5.29,
-      "priceText": "5,29 €",
-      "unit": "(1 l = 10.58)",
+      "retailer": "Penny",
+      "price": 8.88,
+      "priceText": "8,88 €",
+      "unit": "(1 l = 11.10)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3111,18 +3111,6 @@
       "priceText": "0,99 €",
       "unit": "1 l = 4,40",
       "discount": "0,80 €",
-      "source": "kaufDA",
-      "scope": "Deutschland"
-    },
-    {
-      "query": "Duschgel",
-      "product": "Duschgel",
-      "brand": "duschdas",
-      "retailer": "Netto Marken-Discount",
-      "price": 2.99,
-      "priceText": "2,99 €",
-      "unit": "(4.43 / l)",
-      "discount": "0,70 €",
       "source": "kaufDA",
       "scope": "Deutschland"
     },
@@ -3259,6 +3247,30 @@
       "scope": "Marl"
     },
     {
+      "query": "Windeln",
+      "product": "Windeln",
+      "brand": "Millie Moon",
+      "retailer": "Rossmann",
+      "price": 8.75,
+      "priceText": "8,75 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Windeln",
+      "product": "Wolkenweiche Windeln",
+      "brand": "Babydream",
+      "retailer": "Rossmann",
+      "price": 4.99,
+      "priceText": "4,99 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
       "query": "Katzenstreu",
       "product": "Katzenstreu",
       "brand": "Pet Bistro",
@@ -3278,18 +3290,6 @@
       "price": 26.99,
       "priceText": "26,99 €",
       "unit": "(1 l = 1.59)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Katzenstreu",
-      "product": "Katzenstreu XXL",
-      "brand": "MILA'S WORLD",
-      "retailer": "Lidl",
-      "price": 3.75,
-      "priceText": "3,75 €",
-      "unit": "1 l = 0.47",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3464,24 +3464,36 @@
     },
     {
       "query": "Nutella",
-      "product": "Cacao intense",
-      "brand": "Nutella",
-      "retailer": "Penny",
-      "price": 3.99,
-      "priceText": "3,99 €",
-      "unit": "(1 kg = 11.40)",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Nutella",
       "product": "Cacao Intense",
       "brand": "Nutella",
       "retailer": "Lidl",
       "price": 3.99,
       "priceText": "3,99 €",
       "unit": "1 kg = 11.40",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "Winterstiefel",
+      "brand": "Nutella",
+      "retailer": "Lidl",
+      "price": 9.99,
+      "priceText": "9,99 €",
+      "unit": "1 kg = 47.80",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Marl"
+    },
+    {
+      "query": "Nutella",
+      "product": "Cacao intense",
+      "brand": "Nutella",
+      "retailer": "Penny",
+      "price": 3.99,
+      "priceText": "3,99 €",
+      "unit": "(1 kg = 11.40)",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3506,18 +3518,6 @@
       "price": 22.42,
       "priceText": "22,42 €",
       "unit": "",
-      "discount": "",
-      "source": "kaufDA",
-      "scope": "Marl"
-    },
-    {
-      "query": "Nutella",
-      "product": "Winterstiefel",
-      "brand": "Nutella",
-      "retailer": "Lidl",
-      "price": 9.99,
-      "priceText": "9,99 €",
-      "unit": "1 kg = 47.80",
       "discount": "",
       "source": "kaufDA",
       "scope": "Marl"
@@ -3595,6 +3595,18 @@
       "scope": "Deutschland"
     },
     {
+      "query": "Senf",
+      "product": "Brotaufstrich, Streichcreme Senf & Dill",
+      "brand": "dmBio",
+      "retailer": "dm-drogerie markt",
+      "price": 1.25,
+      "priceText": "1,25 €",
+      "unit": "EUR 6,94 / 1 kg",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
       "query": "Mayonnaise",
       "product": "Mayonnaise, Salatcreme oder Remoulade",
       "brand": "Kunella Feinkost",
@@ -3650,6 +3662,18 @@
       "price": 0.29,
       "priceText": "0,29 €",
       "unit": "1 kg = 0.58",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Salz",
+      "product": "Salz- und Pfeffermühle",
+      "brand": "Ideenwelt",
+      "retailer": "Rossmann",
+      "price": 9.99,
+      "priceText": "9,99 €",
+      "unit": "",
       "discount": "",
       "source": "kaufDA",
       "scope": "Deutschland"
@@ -4045,6 +4069,18 @@
       "retailer": "Thomas Philipps",
       "price": 1,
       "priceText": "1,00 €",
+      "unit": "",
+      "discount": "",
+      "source": "kaufDA",
+      "scope": "Deutschland"
+    },
+    {
+      "query": "Backpapier",
+      "product": "Farbiges Backpapier",
+      "brand": "Signature",
+      "retailer": "Rossmann",
+      "price": 2.49,
+      "priceText": "2,49 €",
       "unit": "",
       "discount": "",
       "source": "kaufDA",
